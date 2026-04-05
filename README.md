@@ -16,6 +16,7 @@
 **2.Mainly used resoueces**
 
 We finally find an AAAI 26 paper with the whole open-source code/dataset/model/pre-trained weight, so finally choose it for the experiment:
+
 **IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments**
 - paper: https://arxiv.org/abs/2512.19024
 - code: https://github.com/valyentinee/IndoorUAV-Agent
