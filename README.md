@@ -1,6 +1,6 @@
-# IndoorUAV-Agent VLN Unseen Evaluation
+# IndoorUAV-Agent VLN Evaluation
 
-> We evaluated the VLN ability for `IndoorUAV-Agent`, used the pre-train model and dataset by this open-source repository.
+> We evaluated the VLN ability for IndoorUAV-Agent repo, used the pre-train model and dataset by this open-source repository.
 
 <br>
 
@@ -50,7 +50,7 @@ It seems in without_screenshot dataset the currently pre-trained model nearly fa
 **5.Method of IndoorUAV**
 - Dataset: 1075 3D indoor scenes from Habitat, manual trajectory collection + augmentation, GPT-4o for multi-granularity annotation, 50965 trajectories with images/poses, split into VLN/VLA subsets.
 - Method: Build IndoorUAV-Agent, VLA infers trajectory via fine-tuned π₀, VLN decomposes long instructions into sub-instructions by GPT-4o, executes subtasks with VLA sequentially and updates visual states.
-- Metrics: Adopt SR, NDTW, NE, OSR to evaluate model performance in seen/unseen scenes.
+- Metrics: Adopt SR, NDTW, NE, OSR to evaluate model performance in scenes.
 
 <br>
 
