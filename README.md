@@ -1,4 +1,79 @@
-# IndoorUAV-Agent VLN Unseen Evaluation Report
+# IndoorUAV-Agent VLN Unseen Evaluation
+
+> We evaluated the VLN ability for `IndoorUAV-Agent`, used the pre-train model and dataset by this open-source repository.
+
+<br>
+
+**1.We made a brielfly survay for avaliable VLN or VLA resorces and papers, espacially in domain of UAV, find these valuable:**
+
+- A bunch of papers and codes gathering in https://github.com/TheBrainLab/Awesome-VLA-UAVs, we search avaliable repositories here
+- An ICLR 2025 open-source work: https://prince687028.github.io/OpenUAV, but the code in https://github.com/prince687028/TravelUAV seems lacking of a pre-trained weight, so we don't choose it
+- A HRI 2025 work: https://github.com/sautenich/uav-vla, seems easy to use by OpenAI key but do not have original datasets, so we don't choose it
+- Seems to be a software with CV nor VLA: https://github.com/puku0x/cvdrone
+
+<br>
+
+**2.Mainly used resoueces**
+
+We finally find an AAAI 26 paper with the whole open-source code/dataset/model/pre-trained weight, so finally choose it for the experiment:
+**IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments**
+- paper: https://arxiv.org/abs/2512.19024
+- code: https://github.com/valyentinee/IndoorUAV-Agent
+- dataset: https://www.modelscope.cn/datasets/valyentine/Indoor_UAV
+- pre-trained weight: https://modelscope.cn/models/valyentine/IndoorUAV-Agent/files
+
+The repository mainly relies on two important basements:
+- the physics-enabled 3D simulator: https://github.com/facebookresearch/habitat-sim
+- the famous VLA work pi_0 : https://github.com/Physical-Intelligence/openpi
+
+<br>
+
+**3.Implementation**
+- Platform: We use AutoDL service for the task with PyTorch 2.7.0, Python 3.12(ubuntu22.04), CUDA 12.8, RTX 5090(32GB)*1, 25 vCPU Intel(R) Xeon(R) Platinum 8470Q, RAM 90GB, Storage 30+50+130 GB. If you want to reproduce, this is an avaliable choice.
+- Envs: We use the base env for IndoorUAV+openpi, use conda venv for habitate-sim. A keypoint is habitate-sim should install via conda and I try to compile it then fail. A thinghua source speedup for some of the packages is neccesary.
+- Dataset & pre-trained weight: They can be downloaded directly in the link via web/cmd, or by it's conda guildence. The weight is about 10GB; and the whole dataset with training and evaluation sets is about 1.38TB, devided into many sub-zips that could not be unpackaged with anyone singlely. Here, the `scene_datasets.zip` with 47GB is nessecary for simulation scene, and the `without_screenshot.zip` with 500MB is the smallest package of dataset we could use that only with prompts and ground truth trajectories. So I only download these two for the evaluation.
+- Smoketest: The `IndoorUAV-Agent` repo tells how to use the training and eval pipline, I think with the whole dataset we can easily do this. But for the storage limit (I need to pay ￥1 per day for the extra 130GB storage in the service), I could only do evaluation by the least dataset. With a modification with the eval pipline, the smoketest with random init pic tensor could get an output, with fixing for the personal path in the origin repo.
+- Evaluation: With smoketest, an eval pipline is generated for the without_screenshot. The 89/534 task in it have been tested.
+- Result: Only 2/89 episodes succeed for reaching the orientaion, and nearly all of them fail for the tasks, the metrics are pool.
+
+<br>
+
+**4.Remark**
+It seems in without_screenshot dataset the currently pre-trained model nearly fail, means the VAN ability need be improved in the following works, should consider a world model or better pre-trained model (I think the used base model is too wake and small) or try diffusion policy and inverse dynamic action generation. Additionally and interesting, I find these fail modes by checking the eval videos:
+- Prompt: ascende, failed by ascending too high to ceil.
+- Prompt: reach near the door, failed by reaching not enough so could not do the following turn right task.
+- Prompt: find something, failed by interfered by scene of obstacles or limited vision, so it interrupt the right action and walk or turn around suddently.
+- Clipping: Aircraft crossing simulator scene boundary leads to failure.
+
+<br>
+
+**5.Method of IndoorUAV**
+- Dataset: 1075 3D indoor scenes from Habitat, manual trajectory collection + augmentation, GPT-4o for multi-granularity annotation, 50965 trajectories with images/poses, split into VLN/VLA subsets.
+- Method: Build IndoorUAV-Agent, VLA infers trajectory via fine-tuned π₀, VLN decomposes long instructions into sub-instructions by GPT-4o, executes subtasks with VLA sequentially and updates visual states.
+- Metrics: Adopt SR, NDTW, NE, OSR to evaluate model performance in seen/unseen scenes.
+
+<br>
+
+**6.Example**
+```
+"/hm3d_13/UfhK7KNBg5u/traj_-2/instruction_pro.json": [
+    "Starting at the entrance of the living room before a distant door on the left and a table, lamp, and window on the right, ascend to bring the door and window into near view",
+    "fly forward through the entrance until no prominent objects remain",
+    "turn left toward a nearby closet with a doorway and sink ahead",
+    "fly forward to approach a cabinet and sink beneath a mirror",
+    "continue forward toward the sink and cabinet past the right-side door",
+    "turn right toward a sofa beside a table with a window beyond",
+    "fly into the bedroom to approach a table and lamp flanked by a door and toilet on the left and a bed with pillows on the right",
+    "fly forward again to reveal a painting on the right wall",
+    "turn right back into the living room facing a chair with a vase and a distant painting and window beyond",
+    "fly onto the porch to draw alongside a gutter on the left, pole ahead, and roof overhead with bushes lining the sides and houses beyond",
+    "and finally descend in front of the porch door"
+  ],
+```
+
+---
+
+The follwing are summerized by gpt-5.4-thinking.
 
 > An engineering report for running and analyzing large-scale episode-by-episode VLN evaluation with `IndoorUAV-Agent`.
 
