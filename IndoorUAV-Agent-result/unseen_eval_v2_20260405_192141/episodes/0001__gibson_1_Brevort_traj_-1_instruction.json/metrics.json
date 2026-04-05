@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_1/Brevort/traj_-1/instruction.json",
+  "NE": 4.481957719320245,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.04473705659115242,
+  "final_dist": 4.481957719320245,
+  "final_angle_diff": 0.12607724011830518,
+  "gt_path_length": 14.769996147059816,
+  "pred_steps": 81
+}

@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_2/Scioto/traj_10/instruction.json",
+  "NE": 7.79148414963483,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.03407159528807039,
+  "final_dist": 7.79148414963483,
+  "final_angle_diff": 0.4886729991819907,
+  "gt_path_length": 9.660014497507122,
+  "pred_steps": 20
+}

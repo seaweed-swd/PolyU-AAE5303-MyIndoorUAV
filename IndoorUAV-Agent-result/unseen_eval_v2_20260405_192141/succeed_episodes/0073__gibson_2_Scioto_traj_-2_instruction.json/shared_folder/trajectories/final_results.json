@@ -1,0 +1,8 @@
+{
+  "/gibson_2/Scioto/traj_-2/instruction.json": {
+    "success": false,
+    "steps": 52,
+    "final_instruction_index": 14,
+    "termination_reason": "no_more_instructions"
+  }
+}

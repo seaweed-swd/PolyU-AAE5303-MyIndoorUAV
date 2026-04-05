@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_1/Albertville/traj_-3/instruction.json",
+  "NE": 4.87909687534204,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.08307936011288944,
+  "final_dist": 4.87909687534204,
+  "final_angle_diff": 1.3334148763731273,
+  "gt_path_length": 22.469991758953622,
+  "pred_steps": 80
+}

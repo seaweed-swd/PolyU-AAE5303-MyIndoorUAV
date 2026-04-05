@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_2/Placida/traj_-2/instruction_pro.json",
+  "NE": 3.492526663716017,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.12416570597603595,
+  "final_dist": 3.492526663716017,
+  "final_angle_diff": 1.547751707119617,
+  "gt_path_length": 13.229987912468413,
+  "pred_steps": 49
+}

@@ -1,0 +1,95 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[20:22:09:378779]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:22:09:378944]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Placida.scn` does not exist.  Aborting load.
+[20:22:09:378963]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Placida.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[20:22:09:378977]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Placida.scn` exists but failed to load.
+[20:22:12:394379]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Placida.glb
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391732.396882.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391758.544347.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391759.0157025.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391759.3861976.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391759.8625634.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391760.244705.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391760.7298956.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391761.102067.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391761.570399.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391761.9402063.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391762.4088776.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391762.7858934.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391763.2687206.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391763.6538954.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391764.1272254.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391764.4953644.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391764.9655993.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391765.3346322.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391765.8079798.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391766.1931188.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391766.5774581.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391766.9585812.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391767.4381917.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391767.8194733.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391768.1988199.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391768.680277.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391769.0617504.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391769.5381818.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391769.9166596.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391770.3916757.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391770.76613.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391771.2381985.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391771.7116632.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391772.1892734.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391772.5686824.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391773.0508122.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391773.4292214.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391773.902524.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391774.376267.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391774.7814348.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391775.2652428.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391775.761391.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391776.271102.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391776.679191.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391777.0737393.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391777.5549793.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391777.9469967.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391778.417634.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391778.782509.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391779.1471713.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391779.5975971.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391779.9471757.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391780.392867.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391780.735986.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391781.078701.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391781.5212495.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391781.8641129.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391782.2073908.png
+已生成图像: shared_folder/images/image__gibson_2_Placida_traj_2_instruction.json_1775391782.6510317.png
+收到终止信号，关闭模拟器
+模拟器服务停止

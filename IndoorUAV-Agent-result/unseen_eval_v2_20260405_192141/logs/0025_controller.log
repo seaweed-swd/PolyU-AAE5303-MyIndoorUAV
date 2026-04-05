@@ -1,0 +1,442 @@
+
+========================================
+开始测试 1/1: /gibson_1/Albertville/traj_-1/instruction.json
+
+=== 开始测试: /gibson_1/Albertville/traj_-1/instruction.json ===
+指令序列长度: 15
+初始指令: Ascend in the living room to the sofa
+发送坐标到模拟器: [-5.50265, -0.342064, 3.39, 4.963717509682595]
+移动模拟器输出: sim_output_1775389308.1856136.json -> sim_sim_output_1775389308.1856136.json
+移动模拟器输出: sim_output_1775389308.1893191.json -> sim_sim_output_1775389308.1893191.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389308.1856136.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389308.1893191.png
+移动模拟器输出: sim_output_1775389308.331757.json -> sim_sim_output_1775389308.331757.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389308.331757.png
+移动模型输出: model_output_1775389335.1606932.json -> model_model_output_1775389335.1606932.json
+推理步骤 1/60 - 新坐标: [-5.5075792338319545, -0.3287426636139766, 3.9612895600231948, 4.99145623750441]
+发送坐标到模拟器: [-5.5075792338319545, -0.3287426636139766, 3.9612895600231948, 4.99145623750441]
+移动模型输出: model_output_1775389335.254623.json -> model_model_output_1775389335.254623.json
+推理步骤 2/60 - 新坐标: [-5.505244677892336, -0.3250497437775494, 4.287792574820717, 5.041738470598216]
+发送坐标到模拟器: [-5.505244677892336, -0.3250497437775494, 4.287792574820717, 5.041738470598216]
+移动模型输出: model_output_1775389335.344267.json -> model_model_output_1775389335.344267.json
+推理步骤 3/60 - 新坐标: [-5.52845408422012, -0.3312228310957689, 4.244268797250806, 4.976687441128224]
+更新指令: turn left to the television cabinet
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389308.331757.png
+发送坐标到模拟器: [-5.52845408422012, -0.3312228310957689, 4.244268797250806, 4.976687441128224]
+移动模拟器输出: sim_output_1775389335.339094.json -> sim_sim_output_1775389335.339094.json
+移动模拟器输出: sim_output_1775389335.3401937.json -> sim_sim_output_1775389335.3401937.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.339094.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.3401937.png
+移动模拟器输出: sim_output_1775389335.3525348.json -> sim_sim_output_1775389335.3525348.json
+移动模拟器输出: sim_output_1775389335.4530282.json -> sim_sim_output_1775389335.4530282.json
+移动模拟器输出: sim_output_1775389335.4520166.json -> sim_sim_output_1775389335.4520166.json
+移动模拟器输出: sim_output_1775389335.4658155.json -> sim_sim_output_1775389335.4658155.json
+移动模拟器输出: sim_output_1775389335.5017185.json -> sim_sim_output_1775389335.5017185.json
+移动模拟器输出: sim_output_1775389335.5026803.json -> sim_sim_output_1775389335.5026803.json
+移动模拟器输出: sim_output_1775389335.516071.json -> sim_sim_output_1775389335.516071.json
+移动模型输出: model_output_1775389335.5545905.json -> model_model_output_1775389335.5545905.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.3525348.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.4530282.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.4520166.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.4658155.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.5017185.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.5026803.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.516071.png
+推理步骤 4/60 - 新坐标: [-5.51381390322606, -0.3238940932659021, 3.962552469413217, 4.056555858667125]
+发送坐标到模拟器: [-5.51381390322606, -0.3238940932659021, 3.962552469413217, 4.056555858667125]
+移动模型输出: model_output_1775389335.6501644.json -> model_model_output_1775389335.6501644.json
+推理步骤 5/60 - 新坐标: [-5.511891042239234, -0.32768307363787424, 3.9619186105426896, 4.065865196429619]
+更新指令: proceed forward to the living-room doorway
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.516071.png
+发送坐标到模拟器: [-5.511891042239234, -0.32768307363787424, 3.9619186105426896, 4.065865196429619]
+移动模拟器输出: sim_output_1775389335.6435828.json -> sim_sim_output_1775389335.6435828.json
+移动模拟器输出: sim_output_1775389335.6437945.json -> sim_sim_output_1775389335.6437945.json
+移动模拟器输出: sim_output_1775389335.6564848.json -> sim_sim_output_1775389335.6564848.json
+移动模拟器输出: sim_output_1775389335.6851737.json -> sim_sim_output_1775389335.6851737.json
+移动模拟器输出: sim_output_1775389335.6850348.json -> sim_sim_output_1775389335.6850348.json
+移动模拟器输出: sim_output_1775389335.6961112.json -> sim_sim_output_1775389335.6961112.json
+移动模型输出: model_output_1775389335.745219.json -> model_model_output_1775389335.745219.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6435828.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6437945.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6564848.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6851737.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6850348.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6961112.png
+推理步骤 6/60 - 新坐标: [-5.515314499151273, -0.3239066707975447, 3.9632390681855734, 4.1215792749517135]
+更新指令: turn left to the bathroom entrance
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.6961112.png
+发送坐标到模拟器: [-5.515314499151273, -0.3239066707975447, 3.9632390681855734, 4.1215792749517135]
+移动模拟器输出: sim_output_1775389335.8252938.json -> sim_sim_output_1775389335.8252938.json
+移动模型输出: model_output_1775389335.8619077.json -> model_model_output_1775389335.8619077.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.8252938.png
+推理步骤 7/60 - 新坐标: [-7.8402311011795325, -0.8530776135146331, 4.294692336086383, 5.061857016011044]
+发送坐标到模拟器: [-7.8402311011795325, -0.8530776135146331, 4.294692336086383, 5.061857016011044]
+移动模拟器输出: sim_output_1775389335.8255117.json -> sim_sim_output_1775389335.8255117.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.8255117.png
+移动模拟器输出: sim_output_1775389335.8367555.json -> sim_sim_output_1775389335.8367555.json
+移动模拟器输出: sim_output_1775389335.8782322.json -> sim_sim_output_1775389335.8782322.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.8367555.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389335.8782322.png
+移动模型输出: model_output_1775389335.9780812.json -> model_model_output_1775389335.9780812.json
+推理步骤 8/60 - 新坐标: [-5.506702187849164, -0.31921626513084395, 4.28797633898252, 4.515544806409623]
+发送坐标到模拟器: [-5.506702187849164, -0.31921626513084395, 4.28797633898252, 4.515544806409623]
+移动模拟器输出: sim_output_1775389336.0897543.json -> sim_sim_output_1775389336.0897543.json
+移动模型输出: model_output_1775389336.073236.json -> model_model_output_1775389336.073236.json
+移动模型输出: model_output_1775389336.1686249.json -> model_model_output_1775389336.1686249.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.0897543.png
+推理步骤 9/60 - 新坐标: [-5.5065411195242575, -0.3271242193877329, 4.288452861852369, 4.229540205431942]
+发送坐标到模拟器: [-5.5065411195242575, -0.3271242193877329, 4.288452861852369, 4.229540205431942]
+推理步骤 10/60 - 新坐标: [-5.533428708417702, -0.3282079799342227, 4.245905508185376, 4.242492961534326]
+更新指令: turn left into the stairwell and ascend to its midpoint by the window
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.0897543.png
+发送坐标到模拟器: [-5.533428708417702, -0.3282079799342227, 4.245905508185376, 4.242492961534326]
+移动模型输出: model_output_1775389336.2641842.json -> model_model_output_1775389336.2641842.json
+推理步骤 11/60 - 新坐标: [-5.535656700403074, -0.3280934610323521, 4.245149973793305, 4.729521552259706]
+发送坐标到模拟器: [-5.535656700403074, -0.3280934610323521, 4.245149973793305, 4.729521552259706]
+移动模拟器输出: sim_output_1775389336.2608361.json -> sim_sim_output_1775389336.2608361.json
+移动模拟器输出: sim_output_1775389336.2662787.json -> sim_sim_output_1775389336.2662787.json
+移动模拟器输出: sim_output_1775389336.2681773.json -> sim_sim_output_1775389336.2681773.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.2608361.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.2662787.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.2681773.png
+移动模拟器输出: sim_output_1775389336.3295271.json -> sim_sim_output_1775389336.3295271.json
+移动模拟器输出: sim_output_1775389336.3562365.json -> sim_sim_output_1775389336.3562365.json
+移动模拟器输出: sim_output_1775389336.3772402.json -> sim_sim_output_1775389336.3772402.json
+移动模拟器输出: sim_output_1775389336.3718364.json -> sim_sim_output_1775389336.3718364.json
+移动模拟器输出: sim_output_1775389336.4057746.json -> sim_sim_output_1775389336.4057746.json
+移动模型输出: model_output_1775389336.381262.json -> model_model_output_1775389336.381262.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.3295271.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.3562365.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.3772402.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.3718364.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.4057746.png
+推理步骤 12/60 - 新坐标: [-5.5154940380613535, -0.3487991344935177, 5.15570762467267, 4.8249138371457265]
+发送坐标到模拟器: [-5.5154940380613535, -0.3487991344935177, 5.15570762467267, 4.8249138371457265]
+移动模型输出: model_output_1775389336.4770489.json -> model_model_output_1775389336.4770489.json
+推理步骤 13/60 - 新坐标: [-5.507883402114206, -0.3356031590610162, 4.248584985497686, 3.236073955356641]
+发送坐标到模拟器: [-5.507883402114206, -0.3356031590610162, 4.248584985497686, 3.236073955356641]
+移动模拟器输出: sim_output_1775389336.5178058.json -> sim_sim_output_1775389336.5178058.json
+移动模拟器输出: sim_output_1775389336.5233548.json -> sim_sim_output_1775389336.5233548.json
+移动模拟器输出: sim_output_1775389336.5447767.json -> sim_sim_output_1775389336.5447767.json
+移动模型输出: model_output_1775389336.574009.json -> model_model_output_1775389336.574009.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5178058.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5233548.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5447767.png
+推理步骤 14/60 - 新坐标: [-5.515214932058485, -0.3197780482833892, 3.9626649115444716, 3.3234038788686924]
+发送坐标到模拟器: [-5.515214932058485, -0.3197780482833892, 3.9626649115444716, 3.3234038788686924]
+移动模拟器输出: sim_output_1775389336.55317.json -> sim_sim_output_1775389336.55317.json
+移动模拟器输出: sim_output_1775389336.5596082.json -> sim_sim_output_1775389336.5596082.json
+移动模拟器输出: sim_output_1775389336.5808344.json -> sim_sim_output_1775389336.5808344.json
+移动模拟器输出: sim_output_1775389336.5943453.json -> sim_sim_output_1775389336.5943453.json
+移动模拟器输出: sim_output_1775389336.6005387.json -> sim_sim_output_1775389336.6005387.json
+移动模拟器输出: sim_output_1775389336.6222513.json -> sim_sim_output_1775389336.6222513.json
+移动模型输出: model_output_1775389336.6694865.json -> model_model_output_1775389336.6694865.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.55317.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5596082.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5808344.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.5943453.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.6005387.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.6222513.png
+推理步骤 15/60 - 新坐标: [-5.51531193258094, -0.32758667027276167, 4.036413652771658, 3.1042049030104737]
+更新指令: turn right into the kitchen and approach the refrigerator
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.6222513.png
+发送坐标到模拟器: [-5.51531193258094, -0.32758667027276167, 4.036413652771658, 3.1042049030104737]
+移动模拟器输出: sim_output_1775389336.7333727.json -> sim_sim_output_1775389336.7333727.json
+移动模拟器输出: sim_output_1775389336.7411134.json -> sim_sim_output_1775389336.7411134.json
+移动模型输出: model_output_1775389336.7659423.json -> model_model_output_1775389336.7659423.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.7333727.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.7411134.png
+推理步骤 16/60 - 新坐标: [-5.512613436866151, -0.32085875780257517, 3.9615724578470313, 3.1169115913155023]
+更新指令: turn right to the sink at the hallway entrance
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.7411134.png
+发送坐标到模拟器: [-5.512613436866151, -0.32085875780257517, 3.9615724578470313, 3.1169115913155023]
+移动模拟器输出: sim_output_1775389336.7621813.json -> sim_sim_output_1775389336.7621813.json
+移动模拟器输出: sim_output_1775389336.802743.json -> sim_sim_output_1775389336.802743.json
+移动模型输出: model_output_1775389336.8824139.json -> model_model_output_1775389336.8824139.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.7621813.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.802743.png
+推理步骤 17/60 - 新坐标: [-5.516384880456042, -0.3068504604959232, 3.9611783255009856, 4.814607235434312]
+发送坐标到模拟器: [-5.516384880456042, -0.3068504604959232, 3.9611783255009856, 4.814607235434312]
+移动模拟器输出: sim_output_1775389336.942161.json -> sim_sim_output_1775389336.942161.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.942161.png
+移动模拟器输出: sim_output_1775389336.9730237.json -> sim_sim_output_1775389336.9730237.json
+移动模型输出: model_output_1775389336.9992805.json -> model_model_output_1775389336.9992805.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389336.9730237.png
+推理步骤 18/60 - 新坐标: [-5.519672669661824, -0.31881996352947867, 3.9635387076975994, 4.309857429017072]
+发送坐标到模拟器: [-5.519672669661824, -0.31881996352947867, 3.9635387076975994, 4.309857429017072]
+移动模型输出: model_output_1775389337.094811.json -> model_model_output_1775389337.094811.json
+移动模型输出: model_output_1775389337.1909044.json -> model_model_output_1775389337.1909044.json
+推理步骤 19/60 - 新坐标: [-5.5163582025647, -0.3228201950542666, 3.9666804711809727, 4.927442905122491]
+发送坐标到模拟器: [-5.5163582025647, -0.3228201950542666, 3.9666804711809727, 4.927442905122491]
+推理步骤 20/60 - 新坐标: [-5.51585117889238, -0.3155251935701013, 3.9649473242215456, 4.647058370061369]
+发送坐标到模拟器: [-5.51585117889238, -0.3155251935701013, 3.9649473242215456, 4.647058370061369]
+移动模拟器输出: sim_output_1775389337.1413665.json -> sim_sim_output_1775389337.1413665.json
+移动模拟器输出: sim_output_1775389337.2064934.json -> sim_sim_output_1775389337.2064934.json
+移动模拟器输出: sim_output_1775389337.181924.json -> sim_sim_output_1775389337.181924.json
+移动模拟器输出: sim_output_1775389337.183773.json -> sim_sim_output_1775389337.183773.json
+移动模拟器输出: sim_output_1775389337.2541897.json -> sim_sim_output_1775389337.2541897.json
+移动模型输出: model_output_1775389337.2868757.json -> model_model_output_1775389337.2868757.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.1413665.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.2064934.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.181924.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.183773.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.2541897.png
+推理步骤 21/60 - 新坐标: [-5.5230782750829155, -0.3181187410597234, 3.9652925828743135, 4.3006237216610455]
+发送坐标到模拟器: [-5.5230782750829155, -0.3181187410597234, 3.9652925828743135, 4.3006237216610455]
+移动模拟器输出: sim_output_1775389337.255487.json -> sim_sim_output_1775389337.255487.json
+移动模拟器输出: sim_output_1775389337.2870424.json -> sim_sim_output_1775389337.2870424.json
+移动模拟器输出: sim_output_1775389337.3033068.json -> sim_sim_output_1775389337.3033068.json
+移动模拟器输出: sim_output_1775389337.3388042.json -> sim_sim_output_1775389337.3388042.json
+移动模型输出: model_output_1775389337.367348.json -> model_model_output_1775389337.367348.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.255487.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.2870424.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.3033068.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.3388042.png
+推理步骤 22/60 - 新坐标: [-7.841880566035353, -0.8475473789920469, 4.299373626493799, 5.766219184884982]
+发送坐标到模拟器: [-7.841880566035353, -0.8475473789920469, 4.299373626493799, 5.766219184884982]
+移动模拟器输出: sim_output_1775389337.4468882.json -> sim_sim_output_1775389337.4468882.json
+移动模型输出: model_output_1775389337.4626713.json -> model_model_output_1775389337.4626713.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.4468882.png
+推理步骤 23/60 - 新坐标: [-5.512470581342514, -0.31589139347426604, 4.293215765533912, 4.795870133617719]
+发送坐标到模拟器: [-5.512470581342514, -0.31589139347426604, 4.293215765533912, 4.795870133617719]
+移动模型输出: model_output_1775389337.5581672.json -> model_model_output_1775389337.5581672.json
+推理步骤 24/60 - 新坐标: [-5.509411277550951, -0.32037188519991694, 4.291503127543263, 4.846925683823235]
+更新指令: proceed down the hallway to the counter and approach the painting at its end
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.4468882.png
+发送坐标到模拟器: [-5.509411277550951, -0.32037188519991694, 4.291503127543263, 4.846925683823235]
+移动模拟器输出: sim_output_1775389337.5603018.json -> sim_sim_output_1775389337.5603018.json
+移动模拟器输出: sim_output_1775389337.579526.json -> sim_sim_output_1775389337.579526.json
+移动模拟器输出: sim_output_1775389337.6204932.json -> sim_sim_output_1775389337.6204932.json
+移动模拟器输出: sim_output_1775389337.5958717.json -> sim_sim_output_1775389337.5958717.json
+移动模拟器输出: sim_output_1775389337.642467.json -> sim_sim_output_1775389337.642467.json
+移动模型输出: model_output_1775389337.654712.json -> model_model_output_1775389337.654712.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.5603018.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.579526.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.6204932.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.5958717.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.642467.png
+推理步骤 25/60 - 新坐标: [-5.509586214649593, -0.3183942681732559, 4.289773481350548, 4.603638931126671]
+更新指令: turn right into the adjacent room to the picture frame by the doorway
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.642467.png
+发送坐标到模拟器: [-5.509586214649593, -0.3183942681732559, 4.289773481350548, 4.603638931126671]
+移动模型输出: model_output_1775389337.757.json -> model_model_output_1775389337.757.json
+推理步骤 26/60 - 新坐标: [-6.31412443900694, -0.27997008708675636, 4.287141516067648, 4.250061985176278]
+发送坐标到模拟器: [-6.31412443900694, -0.27997008708675636, 4.287141516067648, 4.250061985176278]
+移动模拟器输出: sim_output_1775389337.7667873.json -> sim_sim_output_1775389337.7667873.json
+移动模拟器输出: sim_output_1775389337.7748961.json -> sim_sim_output_1775389337.7748961.json
+移动模拟器输出: sim_output_1775389337.7950315.json -> sim_sim_output_1775389337.7950315.json
+移动模拟器输出: sim_output_1775389337.8266494.json -> sim_sim_output_1775389337.8266494.json
+移动模拟器输出: sim_output_1775389337.810252.json -> sim_sim_output_1775389337.810252.json
+移动模拟器输出: sim_output_1775389337.8400695.json -> sim_sim_output_1775389337.8400695.json
+移动模型输出: model_output_1775389337.87824.json -> model_model_output_1775389337.87824.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.7667873.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.7748961.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.7950315.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.8266494.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.810252.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.8400695.png
+推理步骤 27/60 - 新坐标: [-5.5167428382229575, -0.31537415065998115, 4.295632321976303, 5.653217428785541]
+发送坐标到模拟器: [-5.5167428382229575, -0.31537415065998115, 4.295632321976303, 5.653217428785541]
+移动模型输出: model_output_1775389337.9746497.json -> model_model_output_1775389337.9746497.json
+推理步骤 28/60 - 新坐标: [-5.536996716667441, -0.3228322411767197, 4.2470774505984235, 4.972400092304949]
+发送坐标到模拟器: [-5.536996716667441, -0.3228322411767197, 4.2470774505984235, 4.972400092304949]
+移动模拟器输出: sim_output_1775389337.9689817.json -> sim_sim_output_1775389337.9689817.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.9689817.png
+移动模拟器输出: sim_output_1775389337.9700198.json -> sim_sim_output_1775389337.9700198.json
+移动模拟器输出: sim_output_1775389337.982739.json -> sim_sim_output_1775389337.982739.json
+移动模拟器输出: sim_output_1775389338.0117292.json -> sim_sim_output_1775389338.0117292.json
+移动模拟器输出: sim_output_1775389338.022575.json -> sim_sim_output_1775389338.022575.json
+移动模型输出: model_output_1775389338.071011.json -> model_model_output_1775389338.071011.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.9700198.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389337.982739.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.0117292.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.022575.png
+推理步骤 29/60 - 新坐标: [-5.541722094602141, -0.32613518298643485, 4.247832280684404, 4.617497650840187]
+发送坐标到模拟器: [-5.541722094602141, -0.32613518298643485, 4.247832280684404, 4.617497650840187]
+移动模拟器输出: sim_output_1775389338.1530235.json -> sim_sim_output_1775389338.1530235.json
+移动模拟器输出: sim_output_1775389338.1649926.json -> sim_sim_output_1775389338.1649926.json
+移动模型输出: model_output_1775389338.1674664.json -> model_model_output_1775389338.1674664.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.1530235.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.1649926.png
+推理步骤 30/60 - 新坐标: [-5.541765785535138, -0.32723111099779256, 4.247685686828391, 5.621284768611319]
+发送坐标到模拟器: [-5.541765785535138, -0.32723111099779256, 4.247685686828391, 5.621284768611319]
+移动模型输出: model_output_1775389338.26411.json -> model_model_output_1775389338.26411.json
+推理步骤 31/60 - 新坐标: [-5.540604323570591, -0.3213791283408623, 4.246647958432212, 4.94090440537121]
+发送坐标到模拟器: [-5.540604323570591, -0.3213791283408623, 4.246647958432212, 4.94090440537121]
+移动模拟器输出: sim_output_1775389338.2938533.json -> sim_sim_output_1775389338.2938533.json
+移动模拟器输出: sim_output_1775389338.3046825.json -> sim_sim_output_1775389338.3046825.json
+移动模拟器输出: sim_output_1775389338.3099554.json -> sim_sim_output_1775389338.3099554.json
+移动模拟器输出: sim_output_1775389338.3332427.json -> sim_sim_output_1775389338.3332427.json
+移动模拟器输出: sim_output_1775389338.3443716.json -> sim_sim_output_1775389338.3443716.json
+移动模型输出: model_output_1775389338.390276.json -> model_model_output_1775389338.390276.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.2938533.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.3046825.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.3099554.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.3332427.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.3443716.png
+推理步骤 32/60 - 新坐标: [-5.544100386415695, -0.32495822844356337, 4.246889741213274, 5.5726255145780454]
+发送坐标到模拟器: [-5.544100386415695, -0.32495822844356337, 4.246889741213274, 5.5726255145780454]
+移动模拟器输出: sim_output_1775389338.3726776.json -> sim_sim_output_1775389338.3726776.json
+移动模拟器输出: sim_output_1775389338.4205453.json -> sim_sim_output_1775389338.4205453.json
+移动模型输出: model_output_1775389338.5044196.json -> model_model_output_1775389338.5044196.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.3726776.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.4205453.png
+推理步骤 33/60 - 新坐标: [-5.522787953999044, -0.34393131867489657, 5.156736859838777, 5.526681823689041]
+发送坐标到模拟器: [-5.522787953999044, -0.34393131867489657, 5.156736859838777, 5.526681823689041]
+移动模拟器输出: sim_output_1775389338.5616791.json -> sim_sim_output_1775389338.5616791.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.5616791.png
+移动模拟器输出: sim_output_1775389338.5748699.json -> sim_sim_output_1775389338.5748699.json
+移动模拟器输出: sim_output_1775389338.5861473.json -> sim_sim_output_1775389338.5861473.json
+移动模型输出: model_output_1775389338.6263504.json -> model_model_output_1775389338.6263504.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.5748699.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.5861473.png
+推理步骤 34/60 - 新坐标: [-5.5250247903611855, -0.34630127848644154, 5.156042546921409, 5.407256111726424]
+更新指令: proceed to the light switch
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.5861473.png
+发送坐标到模拟器: [-5.5250247903611855, -0.34630127848644154, 5.156042546921409, 5.407256111726424]
+移动模拟器输出: sim_output_1775389338.7414124.json -> sim_sim_output_1775389338.7414124.json
+移动模拟器输出: sim_output_1775389338.7552135.json -> sim_sim_output_1775389338.7552135.json
+移动模型输出: model_output_1775389338.7511032.json -> model_model_output_1775389338.7511032.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.7414124.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.7552135.png
+推理步骤 35/60 - 新坐标: [-5.5238697722795, -0.34180184358756033, 5.1579591232594, 5.57403474237741]
+更新指令: turn right to the railing by the staircase
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.7552135.png
+发送坐标到模拟器: [-5.5238697722795, -0.34180184358756033, 5.1579591232594, 5.57403474237741]
+移动模拟器输出: sim_output_1775389338.7982702.json -> sim_sim_output_1775389338.7982702.json
+移动模拟器输出: sim_output_1775389338.8613262.json -> sim_sim_output_1775389338.8613262.json
+移动模型输出: model_output_1775389338.9043221.json -> model_model_output_1775389338.9043221.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.7982702.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.8613262.png
+推理步骤 36/60 - 新坐标: [-5.512377515386333, -0.3318522837959406, 4.250651827329906, 3.230939392215838]
+发送坐标到模拟器: [-5.512377515386333, -0.3318522837959406, 4.250651827329906, 3.230939392215838]
+移动模拟器输出: sim_output_1775389338.9054096.json -> sim_sim_output_1775389338.9054096.json
+移动模拟器输出: sim_output_1775389338.9652543.json -> sim_sim_output_1775389338.9652543.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.9054096.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389338.9652543.png
+移动模拟器输出: sim_output_1775389339.0097353.json -> sim_sim_output_1775389339.0097353.json
+移动模型输出: model_output_1775389339.0539796.json -> model_model_output_1775389339.0539796.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.0097353.png
+推理步骤 37/60 - 新坐标: [-5.5098633574786176, -0.3299979820745774, 4.252985153541607, 3.7818680325416754]
+发送坐标到模拟器: [-5.5098633574786176, -0.3299979820745774, 4.252985153541607, 3.7818680325416754]
+移动模拟器输出: sim_output_1775389339.151587.json -> sim_sim_output_1775389339.151587.json
+移动模型输出: model_output_1775389339.1803155.json -> model_model_output_1775389339.1803155.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.151587.png
+推理步骤 38/60 - 新坐标: [-5.515722038033342, -0.3328481493108908, 4.251637962167068, 3.218721849107159]
+发送坐标到模拟器: [-5.515722038033342, -0.3328481493108908, 4.251637962167068, 3.218721849107159]
+移动模型输出: model_output_1775389339.3072524.json -> model_model_output_1775389339.3072524.json
+推理步骤 39/60 - 新坐标: [-5.526016109653913, -0.31470994465032404, 3.965953420955139, 3.3987646471453874]
+发送坐标到模拟器: [-5.526016109653913, -0.31470994465032404, 3.965953420955139, 3.3987646471453874]
+移动模拟器输出: sim_output_1775389339.2933204.json -> sim_sim_output_1775389339.2933204.json
+移动模拟器输出: sim_output_1775389339.318908.json -> sim_sim_output_1775389339.318908.json
+移动模拟器输出: sim_output_1775389339.3157.json -> sim_sim_output_1775389339.3157.json
+移动模拟器输出: sim_output_1775389339.3570652.json -> sim_sim_output_1775389339.3570652.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.2933204.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.318908.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.3157.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.3570652.png
+移动模拟器输出: sim_output_1775389339.400238.json -> sim_sim_output_1775389339.400238.json
+移动模拟器输出: sim_output_1775389339.3995097.json -> sim_sim_output_1775389339.3995097.json
+移动模型输出: model_output_1775389339.4334702.json -> model_model_output_1775389339.4334702.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.400238.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.3995097.png
+推理步骤 40/60 - 新坐标: [-5.516752362019334, -0.31349710118416585, 3.9660049283213104, 3.592561183034283]
+更新指令: ascend toward the stairwell window
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.3995097.png
+发送坐标到模拟器: [-5.516752362019334, -0.31349710118416585, 3.9660049283213104, 3.592561183034283]
+移动模拟器输出: sim_output_1775389339.548291.json -> sim_sim_output_1775389339.548291.json
+移动模拟器输出: sim_output_1775389339.5493968.json -> sim_sim_output_1775389339.5493968.json
+移动模型输出: model_output_1775389339.561536.json -> model_model_output_1775389339.561536.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.548291.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.5493968.png
+推理步骤 41/60 - 新坐标: [-5.518487262023435, -0.3170775852594588, 3.9643345601171527, 3.359812398313398]
+更新指令: turn right into the bedroom entrance by the side tables and lamps
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.5493968.png
+发送坐标到模拟器: [-5.518487262023435, -0.3170775852594588, 3.9643345601171527, 3.359812398313398]
+移动模拟器输出: sim_output_1775389339.6927266.json -> sim_sim_output_1775389339.6927266.json
+移动模拟器输出: sim_output_1775389339.6896005.json -> sim_sim_output_1775389339.6896005.json
+移动模型输出: model_output_1775389339.7244692.json -> model_model_output_1775389339.7244692.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.6927266.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.6896005.png
+推理步骤 42/60 - 新坐标: [-5.539316447593086, -0.31276355069337064, 4.829091490662247, 3.146163015263235]
+发送坐标到模拟器: [-5.539316447593086, -0.31276355069337064, 4.829091490662247, 3.146163015263235]
+移动模拟器输出: sim_output_1775389339.7027314.json -> sim_sim_output_1775389339.7027314.json
+移动模拟器输出: sim_output_1775389339.78468.json -> sim_sim_output_1775389339.78468.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.7027314.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.78468.png
+移动模型输出: model_output_1775389339.8922818.json -> model_model_output_1775389339.8922818.json
+推理步骤 43/60 - 新坐标: [-5.524691227975054, -0.3247905368152367, 4.03866186795827, 3.2521558830578265]
+发送坐标到模拟器: [-5.524691227975054, -0.3247905368152367, 4.03866186795827, 3.2521558830578265]
+移动模型输出: model_output_1775389340.0171628.json -> model_model_output_1775389340.0171628.json
+推理步骤 44/60 - 新坐标: [-5.521264715079171, -0.3198477532441781, 4.040657685375848, 3.1216110739273697]
+更新指令: proceed to the bed at the center
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389339.78468.png
+发送坐标到模拟器: [-5.521264715079171, -0.3198477532441781, 4.040657685375848, 3.1216110739273697]
+移动模拟器输出: sim_output_1775389340.031922.json -> sim_sim_output_1775389340.031922.json
+移动模拟器输出: sim_output_1775389340.0333867.json -> sim_sim_output_1775389340.0333867.json
+移动模拟器输出: sim_output_1775389340.0352795.json -> sim_sim_output_1775389340.0352795.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.031922.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.0333867.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.0352795.png
+移动模拟器输出: sim_output_1775389340.1014652.json -> sim_sim_output_1775389340.1014652.json
+移动模拟器输出: sim_output_1775389340.109264.json -> sim_sim_output_1775389340.109264.json
+移动模拟器输出: sim_output_1775389340.1280227.json -> sim_sim_output_1775389340.1280227.json
+移动模型输出: model_output_1775389340.1454434.json -> model_model_output_1775389340.1454434.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.1014652.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.109264.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.1280227.png
+推理步骤 45/60 - 新坐标: [-5.5120307652981575, -0.31389072596059786, 3.963315081949047, 3.5946779693287425]
+发送坐标到模拟器: [-5.5120307652981575, -0.31389072596059786, 3.963315081949047, 3.5946779693287425]
+移动模拟器输出: sim_output_1775389340.2498167.json -> sim_sim_output_1775389340.2498167.json
+移动模拟器输出: sim_output_1775389340.2615697.json -> sim_sim_output_1775389340.2615697.json
+移动模拟器输出: sim_output_1775389340.2786846.json -> sim_sim_output_1775389340.2786846.json
+移动模型输出: model_output_1775389340.2956157.json -> model_model_output_1775389340.2956157.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.2498167.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.2615697.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.2786846.png
+推理步骤 46/60 - 新坐标: [-5.520538123943097, -0.2940392072973857, 3.9496440930638625, 4.808795756485706]
+发送坐标到模拟器: [-5.520538123943097, -0.2940392072973857, 3.9496440930638625, 4.808795756485706]
+移动模型输出: model_output_1775389340.6086726.json -> model_model_output_1775389340.6086726.json
+推理步骤 47/60 - 新坐标: [-5.523791038980317, -0.2980949622094596, 3.960516731959989, 4.8196445762957225]
+更新指令: and finally descend in front of the bed
+更新参考图像: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.2786846.png
+发送坐标到模拟器: [-5.523791038980317, -0.2980949622094596, 3.960516731959989, 4.8196445762957225]
+移动模拟器输出: sim_output_1775389340.5908325.json -> sim_sim_output_1775389340.5908325.json
+移动模拟器输出: sim_output_1775389340.602755.json -> sim_sim_output_1775389340.602755.json
+移动模拟器输出: sim_output_1775389340.6197228.json -> sim_sim_output_1775389340.6197228.json
+移动模拟器输出: sim_output_1775389340.682994.json -> sim_sim_output_1775389340.682994.json
+移动模拟器输出: sim_output_1775389340.6892135.json -> sim_sim_output_1775389340.6892135.json
+移动模拟器输出: sim_output_1775389340.707815.json -> sim_sim_output_1775389340.707815.json
+移动模型输出: model_output_1775389340.7421706.json -> model_model_output_1775389340.7421706.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.5908325.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.602755.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.6197228.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.682994.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.6892135.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.707815.png
+推理步骤 48/60 - 新坐标: [-5.524225325526959, -0.30956953164372314, 3.9642155032207325, 4.117706784370711]
+发送坐标到模拟器: [-5.524225325526959, -0.30956953164372314, 3.9642155032207325, 4.117706784370711]
+移动模拟器输出: sim_output_1775389340.8307855.json -> sim_sim_output_1775389340.8307855.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.8307855.png
+移动模拟器输出: sim_output_1775389340.8394914.json -> sim_sim_output_1775389340.8394914.json
+移动模拟器输出: sim_output_1775389340.8583863.json -> sim_sim_output_1775389340.8583863.json
+移动模型输出: model_output_1775389340.899301.json -> model_model_output_1775389340.899301.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.8394914.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.8583863.png
+推理步骤 49/60 - 新坐标: [-5.533548826072808, -0.334128205489657, 3.6406712223984687, 4.924728270714969]
+发送坐标到模拟器: [-5.533548826072808, -0.334128205489657, 3.6406712223984687, 4.924728270714969]
+移动模拟器输出: sim_output_1775389340.98145.json -> sim_sim_output_1775389340.98145.json
+移动模拟器输出: sim_output_1775389340.9987907.json -> sim_sim_output_1775389340.9987907.json
+移动模型输出: model_output_1775389341.0244393.json -> model_model_output_1775389341.0244393.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.98145.png
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389340.9987907.png
+推理步骤 50/60 - 新坐标: [-5.51461278227763, -0.31363373507886283, 3.652050366440154, 4.321216258225782]
+发送坐标到模拟器: [-5.51461278227763, -0.31363373507886283, 3.652050366440154, 4.321216258225782]
+移动模拟器输出: sim_output_1775389341.119506.json -> sim_sim_output_1775389341.119506.json
+移动模型输出: model_output_1775389341.1574216.json -> model_model_output_1775389341.1574216.json
+发送图像到模型: image__gibson_1_Albertville_traj_-1_instruction.json_1775389341.119506.png
+推理步骤 51/60 - 新坐标: [-5.509602739447945, -0.3243984124603069, 3.506872629049848, 4.339421894345953]
+已达到最后一条指令，终止测试
+测试完成. 成功: False, 步数: 51, 最后指令索引: 14
+
+所有测试完成!

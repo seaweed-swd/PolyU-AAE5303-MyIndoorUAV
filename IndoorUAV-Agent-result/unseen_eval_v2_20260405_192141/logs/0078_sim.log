@@ -1,0 +1,51 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[20:32:26:538078]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:32:26:538331]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` does not exist.  Aborting load.
+[20:32:26:538350]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[20:32:26:538362]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` exists but failed to load.
+[20:32:29:569712]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.glb
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392349.5722406.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392375.5391037.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392375.9430306.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392376.4349773.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392376.9371965.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392377.4234033.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392377.9115558.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392378.2997.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392378.7923884.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392379.1883252.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392379.5777397.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392380.0664074.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392380.460735.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392380.957335.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_-4_instruction_pro.json_1775392381.4591892.png
+收到终止信号，关闭模拟器
+模拟器服务停止

@@ -1,0 +1,71 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:35:53:269581]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[19:35:53:269823]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Arkansaw.scn` does not exist.  Aborting load.
+[19:35:53:269841]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Arkansaw.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[19:35:53:269854]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Arkansaw.scn` exists but failed to load.
+[19:35:56:533053]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Arkansaw.glb
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388956.5355556.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388982.738112.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388982.909797.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388982.9724226.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.3186846.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.399995.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.5432909.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.6814787.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.836902.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388983.8930707.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.0365098.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.176053.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.3138711.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.3729126.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.618518.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.681862.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388984.8302562.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.1693904.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.3527184.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.4158518.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.7644954.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.832932.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388985.9830122.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.1179008.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.280185.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.3340812.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.5786197.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.639105.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388986.9894521.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388987.059915.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388987.5093727.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388988.006499.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388988.2054052.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388988.4683137.png
+已生成图像: shared_folder/images/image__gibson_1_Arkansaw_traj_1_instruction_pro.json_1775388988.6438491.png
+收到终止信号，关闭模拟器
+模拟器服务停止

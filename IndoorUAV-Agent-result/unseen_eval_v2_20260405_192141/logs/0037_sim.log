@@ -1,0 +1,67 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:52:02:751174]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[19:52:02:751409]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Albertville.scn` does not exist.  Aborting load.
+[19:52:02:751429]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Albertville.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[19:52:02:751443]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Albertville.scn` exists but failed to load.
+[19:52:05:867562]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Albertville.glb
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389925.8700206.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389952.440316.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389952.5459383.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389952.5872276.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389952.9145288.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389952.9694703.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.1225953.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.4577417.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.6408489.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.7899854.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.9388456.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389953.992146.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.1323895.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.25811.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.3984494.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.5495007.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.6106277.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.8432164.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389954.9044979.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389955.053081.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389955.3875427.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389955.6696029.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389955.843317.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389955.997075.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389956.0474353.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389956.4960427.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389956.8825922.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389956.9727497.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389957.1217387.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389957.2505472.png
+已生成图像: shared_folder/images/image__gibson_1_Albertville_traj_4_instruction.json_1775389957.3901072.png
+收到终止信号，关闭模拟器
+模拟器服务停止

@@ -1,0 +1,63 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:21:52:300972]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[19:21:52:301100]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Brevort.scn` does not exist.  Aborting load.
+[19:21:52:301118]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Brevort.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[19:21:52:301131]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Brevort.scn` exists but failed to load.
+[19:21:53:259218]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Brevort.glb
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388113.2640638.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388138.948789.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.0255182.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.0735984.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.4077024.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.4824436.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.8315043.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388139.9073727.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388140.1546268.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388140.2156813.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388140.6607926.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388140.8526978.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388140.9024599.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.0468066.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.1969607.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.3597968.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.5223625.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.777269.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388141.9533074.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.0126717.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.1612105.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.492975.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.5743308.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.7215118.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.844778.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388142.9963908.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388143.151391.png
+已生成图像: shared_folder/images/image__gibson_1_Brevort_traj_-1_instruction.json_1775388143.390542.png
+模拟器服务停止

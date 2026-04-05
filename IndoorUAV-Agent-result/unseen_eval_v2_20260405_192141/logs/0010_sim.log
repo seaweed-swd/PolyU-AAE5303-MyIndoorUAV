@@ -1,0 +1,83 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:29:03:031351]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[19:29:03:031480]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Eagerville.scn` does not exist.  Aborting load.
+[19:29:03:031498]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Eagerville.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[19:29:03:031511]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Eagerville.scn` exists but failed to load.
+[19:29:06:002853]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Eagerville.glb
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388546.0052984.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388571.8472364.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388571.9507473.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.099826.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.432441.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.5090516.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.5566025.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.7903652.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.9408321.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388572.999041.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388573.1396282.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388573.2705145.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388573.4109662.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388573.8579497.png
+处理文件 shared_folder/sim_input/sim_input_1775388573.873211.json 出错: [Errno 2] No such file or directory: 'shared_folder/sim_input/sim_input_1775388573.873211.json'
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.056007.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.2164173.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.368695.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.418543.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.6675823.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.71731.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.8566997.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388574.9969666.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388575.1288729.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388575.5809705.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388575.7693717.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388575.8210757.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.066469.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.19858.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.242825.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.385435.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.5185401.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.7750387.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.8403313.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388576.8871846.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388577.3228245.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388577.6147115.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388577.6902592.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388578.3384182.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388578.5203607.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388578.6949754.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388578.942375.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388579.1163046.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388579.1684377.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388579.311953.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388579.635671.png
+已生成图像: shared_folder/images/image__gibson_1_Eagerville_traj_-1_instruction_pro.json_1775388579.7050066.png
+收到终止信号，关闭模拟器
+模拟器服务停止

@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_1/Eagerville/traj_-1/instruction_pro.json",
+  "NE": 3.540973413780637,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.07846384238039546,
+  "final_dist": 3.540973413780637,
+  "final_angle_diff": 1.5334505979404902,
+  "gt_path_length": 11.900013315830197,
+  "pred_steps": 139
+}

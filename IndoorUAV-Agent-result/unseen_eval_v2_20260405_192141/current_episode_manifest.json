@@ -1,0 +1,20 @@
+{
+  "/gibson_2/Scioto/traj_3/instruction_pro.json": [
+    "Starting in the living room entrance, fly forward toward the doorway by the curtain and bench",
+    "turn left to face the lamp-lit table",
+    "fly through the cabinet-flanked door with a dog door",
+    "turn right into the kitchen beside the sink and stove",
+    "fly across the kitchen toward the dining table",
+    "enter the dining area beneath the vase-adorned table",
+    "turn right back into the living room by the sofa and coffee table",
+    "fly to the room  s center near the clock and window",
+    "turn right into the entrance hall past the umbrella stand and staircase",
+    "fly to the living room threshold under the curtains",
+    "turn right along the wall to a door",
+    "fly beneath the curtains",
+    "turn right onto the staircase",
+    "fly up to the bedroom doorway",
+    "approach the bed past the bedside tables",
+    "and descend onto the bed beside its lamps"
+  ]
+}

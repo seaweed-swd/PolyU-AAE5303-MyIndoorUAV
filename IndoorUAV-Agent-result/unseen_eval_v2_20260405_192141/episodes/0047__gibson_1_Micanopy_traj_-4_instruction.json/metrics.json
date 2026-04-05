@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_1/Micanopy/traj_-4/instruction.json",
+  "NE": 9.329971111795352,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.015130702461916026,
+  "final_dist": 9.329971111795352,
+  "final_angle_diff": 1.6300016210636366,
+  "gt_path_length": 12.739991764961824,
+  "pred_steps": 80
+}

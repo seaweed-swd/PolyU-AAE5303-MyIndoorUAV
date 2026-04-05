@@ -1,0 +1,97 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[20:36:22:703968]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:36:22:704197]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` does not exist.  Aborting load.
+[20:36:22:704216]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[20:36:22:704229]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.scn` exists but failed to load.
+[20:36:25:774559]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Scioto.glb
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392585.777104.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392612.4433856.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392612.9522483.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392613.363081.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392613.758785.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392614.2514021.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392614.7665331.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392615.280552.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392615.793609.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392616.2072291.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392616.7053525.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392617.2179291.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392617.6352842.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392618.1290638.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392618.540925.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392619.0342767.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392619.5444665.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392620.0570908.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392620.4712577.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392620.974109.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392621.4847178.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392621.9910004.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392622.502376.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392622.9108424.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392623.4050515.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392623.915914.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392624.326692.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392624.8205347.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392625.3094816.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392625.7156422.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392626.2129362.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392626.6191328.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392627.11957.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392627.6314094.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392628.0403204.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392628.534735.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392629.0450346.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392629.45432.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392629.9435368.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392630.351559.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392630.8445137.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392631.2312891.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392631.7249007.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392632.1355348.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392632.534269.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392633.0299554.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392633.540311.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392633.952906.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392634.448663.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392634.9541574.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392635.36466.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392635.860946.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392636.2765164.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392636.7766404.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392637.1863217.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392637.5838497.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392638.081767.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392638.4896615.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392638.9875386.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392639.5015337.png
+已生成图像: shared_folder/images/image__gibson_2_Scioto_traj_1_instruction_pro.json_1775392639.9153419.png
+收到终止信号，关闭模拟器
+模拟器服务停止

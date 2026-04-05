@@ -1,0 +1,11 @@
+{
+  "episode_key": "gibson_1/Arkansaw/traj_-1/instruction.json",
+  "NE": 7.123740750941312,
+  "SR": 0,
+  "OSR": 0,
+  "nDTW": 0.004730803932114378,
+  "final_dist": 7.123740750941312,
+  "final_angle_diff": 0.1561337040741062,
+  "gt_path_length": 24.71000052596863,
+  "pred_steps": 85
+}

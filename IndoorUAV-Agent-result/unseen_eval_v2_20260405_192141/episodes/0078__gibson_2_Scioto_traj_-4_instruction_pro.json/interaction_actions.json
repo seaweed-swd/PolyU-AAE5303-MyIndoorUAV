@@ -1,0 +1,106 @@
+{
+  "episode_key": "/gibson_2/Scioto/traj_-4/instruction_pro.json",
+  "steps": 15,
+  "termination_reason": "no_more_instructions",
+  "instructions": [
+    "Starting at the hallway  s end flanked by walls, ascend to reveal a picture frame and thermostat beside a nearby door and central railing",
+    "then approach a door on the left and railing on the right before reaching the bedroom entrance with a lamp to the left and pillow to the right beneath a distant window",
+    "turn right into the bedroom where a shelf of books, vase, and picture frame lines the left wall opposite the door and a cabinet stands ahead",
+    "reach the bathroom entrance with a bed, nightstand, and lamp on the left before a sink, mirror, cabinet, and window in the distance",
+    "continue into the bathroom between opposing sinks and cabinets with mirrors on either side as you close in on a vase and picture frame beneath the window",
+    "and finally descend onto the rug beside a towel and cabinet"
+  ],
+  "final_instruction_index": 5,
+  "trajectory": [
+    [
+      -4.84905,
+      1.62011,
+      3.11,
+      0.10995443387870375
+    ],
+    [
+      -4.865760573407453,
+      1.6083765901751201,
+      3.7910219706744757,
+      0.10640380889651223
+    ],
+    [
+      -4.858342125816903,
+      1.6096489003583896,
+      4.788531926898255,
+      0.14031183919102888
+    ],
+    [
+      -4.8573447813535,
+      1.617233192186211,
+      4.8124025922839575,
+      0.13648308615655652
+    ],
+    [
+      -4.417797215057788,
+      -0.813849259621723,
+      4.809147799883005,
+      0.15039638553817655
+    ],
+    [
+      -4.417985643769918,
+      -0.806411477672205,
+      4.811817902196353,
+      0.13142962720389406
+    ],
+    [
+      -4.417915699191005,
+      -0.7970526434390007,
+      4.8138491308331695,
+      0.4444301256552757
+    ],
+    [
+      -4.421249582500521,
+      -0.800710644412854,
+      4.815196815952018,
+      1.2079851384505562
+    ],
+    [
+      -4.424179209190122,
+      -0.78322332069744,
+      4.817122534584302,
+      1.9002518790858334
+    ],
+    [
+      -4.431365997702012,
+      -0.7795981368812327,
+      4.818871237337725,
+      1.9487693928725784
+    ],
+    [
+      -3.936826100418335,
+      -0.6636245552754761,
+      4.8226848477726625,
+      1.9427436233039703
+    ],
+    [
+      -3.9469737454213183,
+      -0.6585614011891365,
+      4.8253892802324465,
+      1.9787215434106187
+    ],
+    [
+      -2.3889357180865467,
+      -0.03343184501933649,
+      4.831860038456776,
+      1.9885245793460515
+    ],
+    [
+      -2.40326190248929,
+      -0.023970684127016015,
+      4.83343671882244,
+      1.9899353267073205
+    ],
+    [
+      -2.41579965088635,
+      -0.007369627335676594,
+      3.442414034853156,
+      2.0333769117502607
+    ]
+  ]
+}

@@ -1,0 +1,61 @@
+Renderer: NVIDIA GeForce RTX 5090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 580.76.05
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[20:10:35:162793]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:10:35:163029]:[Warning]:[Scene] SemanticScene.h(331)::checkFileExists : ::loadSemanticSceneDescriptor: File `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Micanopy.scn` does not exist.  Aborting load.
+[20:10:35:163048]:[Warning]:[Scene] SemanticScene.cpp(123)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Micanopy.scn` nor constructed filename : `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/info_semantic.json` exist on disk.
+[20:10:35:163060]:[Error]:[Scene] SemanticScene.cpp(139)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Micanopy.scn` exists but failed to load.
+[20:10:38:192338]:[Warning]:[Sim] Simulator.cpp(595)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+模拟器服务启动...
+初始化模拟器: /root/autodl-tmp/IndoorUAV_extracted/scene_datasets/scene_datasets/gibson/Micanopy.glb
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391038.1948838.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391065.0489278.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391065.5484865.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391065.9416146.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391066.3289332.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391066.8272045.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391067.2340105.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391067.7266922.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391068.2283995.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391068.7316494.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391069.2343445.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391069.734257.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391070.1241474.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391070.596823.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391070.9870973.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391071.482013.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391071.984596.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391072.3915005.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391072.8861573.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391073.388203.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391073.8980577.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391074.3019385.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391074.7955885.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391075.2926345.png
+已生成图像: shared_folder/images/image__gibson_1_Micanopy_traj_5_instruction.json_1775391075.7880409.png
+收到终止信号，关闭模拟器
+模拟器服务停止

@@ -1,0 +1,489 @@
+
+========================================
+开始测试 1/1: /gibson_1/Arkansaw/traj_2/instruction.json
+
+=== 开始测试: /gibson_1/Arkansaw/traj_2/instruction.json ===
+指令序列长度: 7
+初始指令: Proceed forward from the living room to the entrance of the bedroom
+发送坐标到模拟器: [-1.3901, 3.40889, 3.39, 0.04712512898761581]
+移动模拟器输出: sim_output_1775389008.0545108.json -> sim_sim_output_1775389008.0545108.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389008.0545108.png
+移动模拟器输出: sim_output_1775389008.141767.json -> sim_sim_output_1775389008.141767.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389008.141767.png
+移动模拟器输出: sim_output_1775389008.241884.json -> sim_sim_output_1775389008.241884.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389008.241884.png
+移动模型输出: model_output_1775389033.784102.json -> model_model_output_1775389033.784102.json
+推理步骤 1/60 - 新坐标: [-1.3143296699944318, 1.6825052414409398, 3.3866353106210836, 0.06614397173041844]
+发送坐标到模拟器: [-1.3143296699944318, 1.6825052414409398, 3.3866353106210836, 0.06614397173041844]
+移动模型输出: model_output_1775389033.9004831.json -> model_model_output_1775389033.9004831.json
+推理步骤 2/60 - 新坐标: [-1.1800479422912744, 1.9475179828660572, 3.3944726028875283, 0.12668503542907547]
+发送坐标到模拟器: [-1.1800479422912744, 1.9475179828660572, 3.3944726028875283, 0.12668503542907547]
+移动模拟器输出: sim_output_1775389033.9402394.json -> sim_sim_output_1775389033.9402394.json
+移动模拟器输出: sim_output_1775389033.9382114.json -> sim_sim_output_1775389033.9382114.json
+移动模拟器输出: sim_output_1775389033.9384143.json -> sim_sim_output_1775389033.9384143.json
+移动模型输出: model_output_1775389034.0208738.json -> model_model_output_1775389034.0208738.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389033.9402394.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389033.9382114.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389033.9384143.png
+推理步骤 3/60 - 新坐标: [-1.324896147588571, 1.5879651418647136, 3.3926429485521497, 0.07176460118137348]
+发送坐标到模拟器: [-1.324896147588571, 1.5879651418647136, 3.3926429485521497, 0.07176460118137348]
+移动模拟器输出: sim_output_1775389034.0200295.json -> sim_sim_output_1775389034.0200295.json
+移动模拟器输出: sim_output_1775389034.0381603.json -> sim_sim_output_1775389034.0381603.json
+移动模拟器输出: sim_output_1775389034.0386024.json -> sim_sim_output_1775389034.0386024.json
+移动模拟器输出: sim_output_1775389034.0685115.json -> sim_sim_output_1775389034.0685115.json
+移动模拟器输出: sim_output_1775389034.0898995.json -> sim_sim_output_1775389034.0898995.json
+移动模拟器输出: sim_output_1775389034.0901546.json -> sim_sim_output_1775389034.0901546.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0200295.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0381603.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0386024.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0685115.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0898995.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.0901546.png
+移动模型输出: model_output_1775389034.253024.json -> model_model_output_1775389034.253024.json
+推理步骤 4/60 - 新坐标: [-1.0166329821549953, -0.5553311971941712, 3.388006957114908, 0.08069853919670598]
+发送坐标到模拟器: [-1.0166329821549953, -0.5553311971941712, 3.388006957114908, 0.08069853919670598]
+移动模拟器输出: sim_output_1775389034.3022015.json -> sim_sim_output_1775389034.3022015.json
+移动模拟器输出: sim_output_1775389034.3236284.json -> sim_sim_output_1775389034.3236284.json
+移动模拟器输出: sim_output_1775389034.323474.json -> sim_sim_output_1775389034.323474.json
+移动模型输出: model_output_1775389034.3875837.json -> model_model_output_1775389034.3875837.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.3022015.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.3236284.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.323474.png
+推理步骤 5/60 - 新坐标: [-1.1457553103122307, -0.14223009295438582, 3.389477618828753, 0.0717984526355881]
+发送坐标到模拟器: [-1.1457553103122307, -0.14223009295438582, 3.389477618828753, 0.0717984526355881]
+移动模拟器输出: sim_output_1775389034.4593062.json -> sim_sim_output_1775389034.4593062.json
+移动模拟器输出: sim_output_1775389034.480277.json -> sim_sim_output_1775389034.480277.json
+移动模拟器输出: sim_output_1775389034.4803808.json -> sim_sim_output_1775389034.4803808.json
+移动模型输出: model_output_1775389034.5235262.json -> model_model_output_1775389034.5235262.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.4593062.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.480277.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.4803808.png
+推理步骤 6/60 - 新坐标: [-1.1833068442959223, 0.7166010404975537, 3.3883397550315, 0.0936924526851663]
+发送坐标到模拟器: [-1.1833068442959223, 0.7166010404975537, 3.3883397550315, 0.0936924526851663]
+移动模拟器输出: sim_output_1775389034.6178634.json -> sim_sim_output_1775389034.6178634.json
+移动模拟器输出: sim_output_1775389034.6381586.json -> sim_sim_output_1775389034.6381586.json
+移动模拟器输出: sim_output_1775389034.638422.json -> sim_sim_output_1775389034.638422.json
+移动模型输出: model_output_1775389034.6587389.json -> model_model_output_1775389034.6587389.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.6178634.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.6381586.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.638422.png
+推理步骤 7/60 - 新坐标: [-1.178487466475692, 1.0758814039408868, 3.396800090259475, 0.16682423533824114]
+发送坐标到模拟器: [-1.178487466475692, 1.0758814039408868, 3.396800090259475, 0.16682423533824114]
+移动模拟器输出: sim_output_1775389034.7769487.json -> sim_sim_output_1775389034.7769487.json
+移动模拟器输出: sim_output_1775389034.7981105.json -> sim_sim_output_1775389034.7981105.json
+移动模拟器输出: sim_output_1775389034.7991004.json -> sim_sim_output_1775389034.7991004.json
+移动模型输出: model_output_1775389034.7916641.json -> model_model_output_1775389034.7916641.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.7769487.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.7981105.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.7991004.png
+推理步骤 8/60 - 新坐标: [-1.1343813527341233, 1.5207871554849843, 3.3960170613522824, 0.15959754459893347]
+发送坐标到模拟器: [-1.1343813527341233, 1.5207871554849843, 3.3960170613522824, 0.15959754459893347]
+移动模拟器输出: sim_output_1775389034.9365823.json -> sim_sim_output_1775389034.9365823.json
+移动模型输出: model_output_1775389034.9208953.json -> model_model_output_1775389034.9208953.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.9365823.png
+推理步骤 9/60 - 新坐标: [-1.1359874340310496, 1.203672040998348, 3.3960581370150367, 0.1541719606639337]
+发送坐标到模拟器: [-1.1359874340310496, 1.203672040998348, 3.3960581370150367, 0.1541719606639337]
+移动模拟器输出: sim_output_1775389034.957188.json -> sim_sim_output_1775389034.957188.json
+移动模拟器输出: sim_output_1775389034.9591112.json -> sim_sim_output_1775389034.9591112.json
+移动模拟器输出: sim_output_1775389034.9798763.json -> sim_sim_output_1775389034.9798763.json
+移动模拟器输出: sim_output_1775389034.9814978.json -> sim_sim_output_1775389034.9814978.json
+移动模型输出: model_output_1775389035.0480616.json -> model_model_output_1775389035.0480616.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.957188.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.9591112.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.9798763.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389034.9814978.png
+推理步骤 10/60 - 新坐标: [-1.2026358199338907, -0.4383237777315465, 3.40146449795734, 0.07266348415798604]
+发送坐标到模拟器: [-1.2026358199338907, -0.4383237777315465, 3.40146449795734, 0.07266348415798604]
+移动模拟器输出: sim_output_1775389035.1372447.json -> sim_sim_output_1775389035.1372447.json
+移动模拟器输出: sim_output_1775389035.1396062.json -> sim_sim_output_1775389035.1396062.json
+移动模拟器输出: sim_output_1775389035.160213.json -> sim_sim_output_1775389035.160213.json
+移动模型输出: model_output_1775389035.1743977.json -> model_model_output_1775389035.1743977.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.1372447.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.1396062.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.160213.png
+推理步骤 11/60 - 新坐标: [-1.2440356285365632, -0.4719153704929362, 3.395279481201802, 0.09953543398732667]
+更新指令: turn right to the bedside table and lamp in the bedroom
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.160213.png
+发送坐标到模拟器: [-1.2440356285365632, -0.4719153704929362, 3.395279481201802, 0.09953543398732667]
+移动模拟器输出: sim_output_1775389035.2891276.json -> sim_sim_output_1775389035.2891276.json
+移动模拟器输出: sim_output_1775389035.291695.json -> sim_sim_output_1775389035.291695.json
+移动模型输出: model_output_1775389035.303095.json -> model_model_output_1775389035.303095.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.2891276.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.291695.png
+推理步骤 12/60 - 新坐标: [-1.0878024453136932, -0.08767283073575483, 3.3981338078774113, 0.0943911789458059]
+发送坐标到模拟器: [-1.0878024453136932, -0.08767283073575483, 3.3981338078774113, 0.0943911789458059]
+移动模拟器输出: sim_output_1775389035.3395898.json -> sim_sim_output_1775389035.3395898.json
+移动模拟器输出: sim_output_1775389035.3985415.json -> sim_sim_output_1775389035.3985415.json
+移动模型输出: model_output_1775389035.459596.json -> model_model_output_1775389035.459596.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.3395898.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.3985415.png
+推理步骤 13/60 - 新坐标: [-1.0168278094540837, -0.5610691473339583, 3.38963786201303, 0.9920676356524145]
+发送坐标到模拟器: [-1.0168278094540837, -0.5610691473339583, 3.38963786201303, 0.9920676356524145]
+移动模拟器输出: sim_output_1775389035.4413135.json -> sim_sim_output_1775389035.4413135.json
+移动模拟器输出: sim_output_1775389035.4438515.json -> sim_sim_output_1775389035.4438515.json
+移动模拟器输出: sim_output_1775389035.497301.json -> sim_sim_output_1775389035.497301.json
+移动模拟器输出: sim_output_1775389035.4996605.json -> sim_sim_output_1775389035.4996605.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.4413135.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.4438515.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.497301.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.4996605.png
+移动模型输出: model_output_1775389035.5945234.json -> model_model_output_1775389035.5945234.json
+推理步骤 14/60 - 新坐标: [-1.0201694468928182, -0.5623430520864314, 3.3884560430374377, 1.0859055048294184]
+更新指令: proceed into the kitchen
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.4996605.png
+发送坐标到模拟器: [-1.0201694468928182, -0.5623430520864314, 3.3884560430374377, 1.0859055048294184]
+移动模型输出: model_output_1775389035.7259982.json -> model_model_output_1775389035.7259982.json
+推理步骤 15/60 - 新坐标: [-1.0140077925046143, -0.5579380915543038, 3.3898354996042017, 0.8377894502037752]
+更新指令: turn right to the cabinet on the right at the bathroom entrance
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.4996605.png
+发送坐标到模拟器: [-1.0140077925046143, -0.5579380915543038, 3.3898354996042017, 0.8377894502037752]
+移动模拟器输出: sim_output_1775389035.7411013.json -> sim_sim_output_1775389035.7411013.json
+移动模拟器输出: sim_output_1775389035.744127.json -> sim_sim_output_1775389035.744127.json
+移动模拟器输出: sim_output_1775389035.744722.json -> sim_sim_output_1775389035.744722.json
+移动模拟器输出: sim_output_1775389035.8026373.json -> sim_sim_output_1775389035.8026373.json
+移动模拟器输出: sim_output_1775389035.8059657.json -> sim_sim_output_1775389035.8059657.json
+移动模拟器输出: sim_output_1775389035.8220577.json -> sim_sim_output_1775389035.8220577.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.7411013.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.744127.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.744722.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.8026373.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.8059657.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389035.8220577.png
+移动模型输出: model_output_1775389035.8844705.json -> model_model_output_1775389035.8844705.json
+推理步骤 16/60 - 新坐标: [-1.003044392214273, -2.8652770698409515, 3.390329080436978, 0.07909626361925445]
+发送坐标到模拟器: [-1.003044392214273, -2.8652770698409515, 3.390329080436978, 0.07909626361925445]
+移动模型输出: model_output_1775389036.0127819.json -> model_model_output_1775389036.0127819.json
+推理步骤 17/60 - 新坐标: [-1.1464206559289796, -0.137139439272183, 3.3902615334962536, 0.7329078054259893]
+发送坐标到模拟器: [-1.1464206559289796, -0.137139439272183, 3.3902615334962536, 0.7329078054259893]
+移动模拟器输出: sim_output_1775389036.0483239.json -> sim_sim_output_1775389036.0483239.json
+移动模拟器输出: sim_output_1775389036.0523067.json -> sim_sim_output_1775389036.0523067.json
+移动模拟器输出: sim_output_1775389036.0686228.json -> sim_sim_output_1775389036.0686228.json
+移动模拟器输出: sim_output_1775389036.1038775.json -> sim_sim_output_1775389036.1038775.json
+移动模拟器输出: sim_output_1775389036.1071582.json -> sim_sim_output_1775389036.1071582.json
+移动模拟器输出: sim_output_1775389036.1236439.json -> sim_sim_output_1775389036.1236439.json
+移动模型输出: model_output_1775389036.1419513.json -> model_model_output_1775389036.1419513.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.0483239.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.0523067.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.0686228.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.1038775.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.1071582.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.1236439.png
+推理步骤 18/60 - 新坐标: [-1.1500213778802943, -0.1320099267756384, 3.3916421594769033, 0.12805425349734978]
+发送坐标到模拟器: [-1.1500213778802943, -0.1320099267756384, 3.3916421594769033, 0.12805425349734978]
+移动模型输出: model_output_1775389036.2698255.json -> model_model_output_1775389036.2698255.json
+推理步骤 19/60 - 新坐标: [-1.1846449391959493, 0.7153804337305447, 3.3900122245849142, 1.002657361622679]
+发送坐标到模拟器: [-1.1846449391959493, 0.7153804337305447, 3.3900122245849142, 1.002657361622679]
+移动模拟器输出: sim_output_1775389036.2543023.json -> sim_sim_output_1775389036.2543023.json
+移动模拟器输出: sim_output_1775389036.256995.json -> sim_sim_output_1775389036.256995.json
+移动模拟器输出: sim_output_1775389036.2737796.json -> sim_sim_output_1775389036.2737796.json
+移动模拟器输出: sim_output_1775389036.289743.json -> sim_sim_output_1775389036.289743.json
+移动模拟器输出: sim_output_1775389036.2920785.json -> sim_sim_output_1775389036.2920785.json
+移动模拟器输出: sim_output_1775389036.3084168.json -> sim_sim_output_1775389036.3084168.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.2543023.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.256995.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.2737796.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.289743.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.2920785.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.3084168.png
+移动模型输出: model_output_1775389036.3967667.json -> model_model_output_1775389036.3967667.json
+推理步骤 20/60 - 新坐标: [-1.1808981412169346, 0.7242360596480129, 3.3893883198517645, 0.510868815006397]
+发送坐标到模拟器: [-1.1808981412169346, 0.7242360596480129, 3.3893883198517645, 0.510868815006397]
+移动模拟器输出: sim_output_1775389036.5200346.json -> sim_sim_output_1775389036.5200346.json
+移动模拟器输出: sim_output_1775389036.522309.json -> sim_sim_output_1775389036.522309.json
+移动模型输出: model_output_1775389036.525367.json -> model_model_output_1775389036.525367.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.5200346.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.522309.png
+推理步骤 21/60 - 新坐标: [-1.1887142872814147, 0.7227960171743102, 3.390447771457966, 0.15488861400925022]
+发送坐标到模拟器: [-1.1887142872814147, 0.7227960171743102, 3.390447771457966, 0.15488861400925022]
+移动模拟器输出: sim_output_1775389036.53847.json -> sim_sim_output_1775389036.53847.json
+移动模拟器输出: sim_output_1775389036.6038392.json -> sim_sim_output_1775389036.6038392.json
+移动模型输出: model_output_1775389036.6571455.json -> model_model_output_1775389036.6571455.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.53847.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.6038392.png
+推理步骤 22/60 - 新坐标: [-1.178664364158237, 1.0800375828118336, 3.3984329727409297, 0.6926824468924216]
+发送坐标到模拟器: [-1.178664364158237, 1.0800375828118336, 3.3984329727409297, 0.6926824468924216]
+移动模拟器输出: sim_output_1775389036.7551417.json -> sim_sim_output_1775389036.7551417.json
+移动模型输出: model_output_1775389036.7893963.json -> model_model_output_1775389036.7893963.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.7551417.png
+推理步骤 23/60 - 新坐标: [-1.185433691945453, 1.073116411907599, 3.3980116515220287, 0.9232488507423258]
+更新指令: proceed forward to the mirror and sink in the bathroom
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.7551417.png
+发送坐标到模拟器: [-1.185433691945453, 1.073116411907599, 3.3980116515220287, 0.9232488507423258]
+移动模拟器输出: sim_output_1775389036.7810926.json -> sim_sim_output_1775389036.7810926.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.7810926.png
+移动模拟器输出: sim_output_1775389036.8498163.json -> sim_sim_output_1775389036.8498163.json
+移动模拟器输出: sim_output_1775389036.8865075.json -> sim_sim_output_1775389036.8865075.json
+移动模拟器输出: sim_output_1775389036.8869832.json -> sim_sim_output_1775389036.8869832.json
+移动模型输出: model_output_1775389036.9228463.json -> model_model_output_1775389036.9228463.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.8498163.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.8865075.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.8869832.png
+推理步骤 24/60 - 新坐标: [-1.1799584564693468, 1.0791053214229838, 3.3984489226161223, 0.9160354226284911]
+更新指令: continue forward to the towel rack
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.8869832.png
+发送坐标到模拟器: [-1.1799584564693468, 1.0791053214229838, 3.3984489226161223, 0.9160354226284911]
+移动模拟器输出: sim_output_1775389036.9954813.json -> sim_sim_output_1775389036.9954813.json
+移动模型输出: model_output_1775389037.0581925.json -> model_model_output_1775389037.0581925.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389036.9954813.png
+推理步骤 25/60 - 新坐标: [-1.1383098352766972, 1.5273457588828006, 3.39733796155392, 0.14950295892516932]
+发送坐标到模拟器: [-1.1383098352766972, 1.5273457588828006, 3.39733796155392, 0.14950295892516932]
+移动模拟器输出: sim_output_1775389037.125937.json -> sim_sim_output_1775389037.125937.json
+移动模拟器输出: sim_output_1775389037.1347466.json -> sim_sim_output_1775389037.1347466.json
+移动模型输出: model_output_1775389037.1920104.json -> model_model_output_1775389037.1920104.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.125937.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.1347466.png
+推理步骤 26/60 - 新坐标: [-1.1481829281132137, 1.114274506091181, 3.3974989818727788, 0.18447922213351692]
+发送坐标到模拟器: [-1.1481829281132137, 1.114274506091181, 3.3974989818727788, 0.18447922213351692]
+移动模拟器输出: sim_output_1775389037.2484188.json -> sim_sim_output_1775389037.2484188.json
+移动模拟器输出: sim_output_1775389037.2653105.json -> sim_sim_output_1775389037.2653105.json
+移动模拟器输出: sim_output_1775389037.268881.json -> sim_sim_output_1775389037.268881.json
+移动模型输出: model_output_1775389037.3010404.json -> model_model_output_1775389037.3010404.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.2484188.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.2653105.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.268881.png
+推理步骤 27/60 - 新坐标: [-1.1299282513075544, 1.515252708623706, 3.3974538531278053, 0.18046535447547624]
+发送坐标到模拟器: [-1.1299282513075544, 1.515252708623706, 3.3974538531278053, 0.18046535447547624]
+移动模拟器输出: sim_output_1775389037.4115665.json -> sim_sim_output_1775389037.4115665.json
+移动模型输出: model_output_1775389037.4328709.json -> model_model_output_1775389037.4328709.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.4115665.png
+推理步骤 28/60 - 新坐标: [-1.081828596904675, -0.25739643382985866, 3.3978016408754756, 0.16628133794361039]
+发送坐标到模拟器: [-1.081828596904675, -0.25739643382985866, 3.3978016408754756, 0.16628133794361039]
+移动模型输出: model_output_1775389037.5618534.json -> model_model_output_1775389037.5618534.json
+推理步骤 29/60 - 新坐标: [-0.9488635668048785, -0.7397091642833313, 3.602536272035068, 0.1531902773867698]
+发送坐标到模拟器: [-0.9488635668048785, -0.7397091642833313, 3.602536272035068, 0.1531902773867698]
+移动模拟器输出: sim_output_1775389037.5338907.json -> sim_sim_output_1775389037.5338907.json
+移动模拟器输出: sim_output_1775389037.5391102.json -> sim_sim_output_1775389037.5391102.json
+移动模拟器输出: sim_output_1775389037.5631921.json -> sim_sim_output_1775389037.5631921.json
+移动模拟器输出: sim_output_1775389037.6031415.json -> sim_sim_output_1775389037.6031415.json
+移动模拟器输出: sim_output_1775389037.6168616.json -> sim_sim_output_1775389037.6168616.json
+移动模拟器输出: sim_output_1775389037.638311.json -> sim_sim_output_1775389037.638311.json
+移动模型输出: model_output_1775389037.6883833.json -> model_model_output_1775389037.6883833.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.5338907.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.5391102.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.5631921.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.6031415.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.6168616.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.638311.png
+推理步骤 30/60 - 新坐标: [-1.1488086826224013, -2.107193893877112, 3.4114027242493203, 0.09843682374296536]
+发送坐标到模拟器: [-1.1488086826224013, -2.107193893877112, 3.4114027242493203, 0.09843682374296536]
+移动模拟器输出: sim_output_1775389037.751688.json -> sim_sim_output_1775389037.751688.json
+移动模拟器输出: sim_output_1775389037.766391.json -> sim_sim_output_1775389037.766391.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.751688.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.766391.png
+移动模拟器输出: sim_output_1775389037.7855828.json -> sim_sim_output_1775389037.7855828.json
+移动模型输出: model_output_1775389037.8175766.json -> model_model_output_1775389037.8175766.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.7855828.png
+推理步骤 31/60 - 新坐标: [-1.1544407889397235, -1.5879855686457183, 3.4286519378688283, 0.09529017290546417]
+发送坐标到模拟器: [-1.1544407889397235, -1.5879855686457183, 3.4286519378688283, 0.09529017290546417]
+移动模拟器输出: sim_output_1775389037.9204717.json -> sim_sim_output_1775389037.9204717.json
+移动模型输出: model_output_1775389037.9449558.json -> model_model_output_1775389037.9449558.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389037.9204717.png
+推理步骤 32/60 - 新坐标: [-1.1528552096991092, -2.5778104227353427, 3.485013820146578, 0.08721427887912307]
+发送坐标到模拟器: [-1.1528552096991092, -2.5778104227353427, 3.485013820146578, 0.08721427887912307]
+移动模型输出: model_output_1775389038.0758908.json -> model_model_output_1775389038.0758908.json
+推理步骤 33/60 - 新坐标: [-1.1994931544576866, -1.7568697147815775, 3.401098324287765, 0.11165334137071763]
+发送坐标到模拟器: [-1.1994931544576866, -1.7568697147815775, 3.401098324287765, 0.11165334137071763]
+移动模拟器输出: sim_output_1775389038.0744596.json -> sim_sim_output_1775389038.0744596.json
+移动模拟器输出: sim_output_1775389038.0860705.json -> sim_sim_output_1775389038.0860705.json
+移动模拟器输出: sim_output_1775389038.1230953.json -> sim_sim_output_1775389038.1230953.json
+移动模拟器输出: sim_output_1775389038.1015046.json -> sim_sim_output_1775389038.1015046.json
+移动模型输出: model_output_1775389038.2081397.json -> model_model_output_1775389038.2081397.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.0744596.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.0860705.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.1230953.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.1015046.png
+推理步骤 34/60 - 新坐标: [-1.2040861903156055, -1.9662598983325488, 3.617801029512626, 0.11507712590119411]
+发送坐标到模拟器: [-1.2040861903156055, -1.9662598983325488, 3.617801029512626, 0.11507712590119411]
+移动模拟器输出: sim_output_1775389038.1605558.json -> sim_sim_output_1775389038.1605558.json
+移动模拟器输出: sim_output_1775389038.212529.json -> sim_sim_output_1775389038.212529.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.1605558.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.212529.png
+移动模型输出: model_output_1775389038.3393636.json -> model_model_output_1775389038.3393636.json
+推理步骤 35/60 - 新坐标: [-1.143186328573898, -2.7982552093811557, 3.3958603201593753, 0.10694269473946659]
+发送坐标到模拟器: [-1.143186328573898, -2.7982552093811557, 3.3958603201593753, 0.10694269473946659]
+移动模拟器输出: sim_output_1775389038.451171.json -> sim_sim_output_1775389038.451171.json
+移动模型输出: model_output_1775389038.4711232.json -> model_model_output_1775389038.4711232.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.451171.png
+推理步骤 36/60 - 新坐标: [-1.0325076435883245, -1.9882908684903575, 3.4089736603842575, 0.08962135198863058]
+发送坐标到模拟器: [-1.0325076435883245, -1.9882908684903575, 3.4089736603842575, 0.08962135198863058]
+移动模拟器输出: sim_output_1775389038.4673393.json -> sim_sim_output_1775389038.4673393.json
+移动模拟器输出: sim_output_1775389038.4773233.json -> sim_sim_output_1775389038.4773233.json
+移动模拟器输出: sim_output_1775389038.5387602.json -> sim_sim_output_1775389038.5387602.json
+移动模型输出: model_output_1775389038.601164.json -> model_model_output_1775389038.601164.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.4673393.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.4773233.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.5387602.png
+推理步骤 37/60 - 新坐标: [-1.044130682655275, -3.3129673350763627, 3.4042760450704592, 0.10735126332929612]
+发送坐标到模拟器: [-1.044130682655275, -3.3129673350763627, 3.4042760450704592, 0.10735126332929612]
+移动模拟器输出: sim_output_1775389038.5644004.json -> sim_sim_output_1775389038.5644004.json
+移动模拟器输出: sim_output_1775389038.6182234.json -> sim_sim_output_1775389038.6182234.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.5644004.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.6182234.png
+移动模型输出: model_output_1775389038.7322655.json -> model_model_output_1775389038.7322655.json
+推理步骤 38/60 - 新坐标: [-0.8762196503964096, -1.5386054726990293, 3.405051658830509, 0.0770391395107948]
+发送坐标到模拟器: [-0.8762196503964096, -1.5386054726990293, 3.405051658830509, 0.0770391395107948]
+移动模拟器输出: sim_output_1775389038.8505704.json -> sim_sim_output_1775389038.8505704.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.8505704.png
+移动模拟器输出: sim_output_1775389038.8909247.json -> sim_sim_output_1775389038.8909247.json
+移动模拟器输出: sim_output_1775389038.90399.json -> sim_sim_output_1775389038.90399.json
+移动模型输出: model_output_1775389038.9483297.json -> model_model_output_1775389038.9483297.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.8909247.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389038.90399.png
+推理步骤 39/60 - 新坐标: [-1.0247620833454925, -0.5608864601688429, 3.3911847396284487, 1.007286141025012]
+发送坐标到模拟器: [-1.0247620833454925, -0.5608864601688429, 3.3911847396284487, 1.007286141025012]
+移动模型输出: model_output_1775389039.0807753.json -> model_model_output_1775389039.0807753.json
+推理步骤 40/60 - 新坐标: [-0.34717983615176196, -1.1315746514033882, 3.393195759426548, 1.0137307829928117]
+发送坐标到模拟器: [-0.34717983615176196, -1.1315746514033882, 3.393195759426548, 1.0137307829928117]
+移动模拟器输出: sim_output_1775389039.0626385.json -> sim_sim_output_1775389039.0626385.json
+移动模拟器输出: sim_output_1775389039.1096578.json -> sim_sim_output_1775389039.1096578.json
+移动模拟器输出: sim_output_1775389039.1277668.json -> sim_sim_output_1775389039.1277668.json
+移动模拟器输出: sim_output_1775389039.1076643.json -> sim_sim_output_1775389039.1076643.json
+移动模拟器输出: sim_output_1775389039.1699746.json -> sim_sim_output_1775389039.1699746.json
+移动模型输出: model_output_1775389039.2096412.json -> model_model_output_1775389039.2096412.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.0626385.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.1096578.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.1277668.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.1076643.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.1699746.png
+推理步骤 41/60 - 新坐标: [-1.18300368021033, 0.6652428355726181, 3.7626559647178577, 0.1741136467117295]
+发送坐标到模拟器: [-1.18300368021033, 0.6652428355726181, 3.7626559647178577, 0.1741136467117295]
+移动模拟器输出: sim_output_1775389039.2776759.json -> sim_sim_output_1775389039.2776759.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.2776759.png
+移动模拟器输出: sim_output_1775389039.279994.json -> sim_sim_output_1775389039.279994.json
+移动模型输出: model_output_1775389039.3348477.json -> model_model_output_1775389039.3348477.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.279994.png
+推理步骤 42/60 - 新坐标: [-0.7078672450179162, 0.4250135893482617, 3.4055640119032558, 0.7202782327864344]
+发送坐标到模拟器: [-0.7078672450179162, 0.4250135893482617, 3.4055640119032558, 0.7202782327864344]
+移动模拟器输出: sim_output_1775389039.4444268.json -> sim_sim_output_1775389039.4444268.json
+移动模型输出: model_output_1775389039.459233.json -> model_model_output_1775389039.459233.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.4444268.png
+推理步骤 43/60 - 新坐标: [-0.6139549270118855, 0.666350469592016, 3.3974839848269194, 0.9168043286099141]
+发送坐标到模拟器: [-0.6139549270118855, 0.666350469592016, 3.3974839848269194, 0.9168043286099141]
+移动模型输出: model_output_1775389039.5865831.json -> model_model_output_1775389039.5865831.json
+推理步骤 44/60 - 新坐标: [-0.3992896069769827, 0.6345221001601938, 3.402255778189729, 0.8729466380904501]
+发送坐标到模拟器: [-0.3992896069769827, 0.6345221001601938, 3.402255778189729, 0.8729466380904501]
+移动模拟器输出: sim_output_1775389039.600045.json -> sim_sim_output_1775389039.600045.json
+移动模拟器输出: sim_output_1775389039.6148722.json -> sim_sim_output_1775389039.6148722.json
+移动模拟器输出: sim_output_1775389039.641452.json -> sim_sim_output_1775389039.641452.json
+移动模拟器输出: sim_output_1775389039.619266.json -> sim_sim_output_1775389039.619266.json
+移动模拟器输出: sim_output_1775389039.6561556.json -> sim_sim_output_1775389039.6561556.json
+移动模型输出: model_output_1775389039.7127354.json -> model_model_output_1775389039.7127354.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.600045.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.6148722.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.641452.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.619266.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.6561556.png
+推理步骤 45/60 - 新坐标: [-0.8804583976386966, 0.9774903578574882, 3.399536651705922, 0.9075653074170575]
+发送坐标到模拟器: [-0.8804583976386966, 0.9774903578574882, 3.399536651705922, 0.9075653074170575]
+移动模拟器输出: sim_output_1775389039.7759612.json -> sim_sim_output_1775389039.7759612.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.7759612.png
+移动模拟器输出: sim_output_1775389039.7928443.json -> sim_sim_output_1775389039.7928443.json
+移动模拟器输出: sim_output_1775389039.792568.json -> sim_sim_output_1775389039.792568.json
+移动模型输出: model_output_1775389039.837516.json -> model_model_output_1775389039.837516.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.7928443.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.792568.png
+推理步骤 46/60 - 新坐标: [-0.5803138444488699, 0.3198146700457247, 3.3969300973355283, 0.851428201694256]
+发送坐标到模拟器: [-0.5803138444488699, 0.3198146700457247, 3.3969300973355283, 0.851428201694256]
+移动模拟器输出: sim_output_1775389039.9347558.json -> sim_sim_output_1775389039.9347558.json
+移动模拟器输出: sim_output_1775389039.950542.json -> sim_sim_output_1775389039.950542.json
+移动模型输出: model_output_1775389039.9458275.json -> model_model_output_1775389039.9458275.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.9347558.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389039.950542.png
+推理步骤 47/60 - 新坐标: [-1.1381318585963889, 1.5341081307458726, 3.397329585214153, 0.15351455806760833]
+发送坐标到模拟器: [-1.1381318585963889, 1.5341081307458726, 3.397329585214153, 0.15351455806760833]
+移动模拟器输出: sim_output_1775389040.0859547.json -> sim_sim_output_1775389040.0859547.json
+移动模型输出: model_output_1775389040.078457.json -> model_model_output_1775389040.078457.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.0859547.png
+推理步骤 48/60 - 新坐标: [-1.10443316114271, 0.2469967945981878, 3.3993189069230696, 0.19753031486965286]
+发送坐标到模拟器: [-1.10443316114271, 0.2469967945981878, 3.3993189069230696, 0.19753031486965286]
+移动模型输出: model_output_1775389040.2088199.json -> model_model_output_1775389040.2088199.json
+推理步骤 49/60 - 新坐标: [-0.9756993024610587, -0.8271867279609268, 3.401912490846231, 0.17971271914234016]
+发送坐标到模拟器: [-0.9756993024610587, -0.8271867279609268, 3.401912490846231, 0.17971271914234016]
+移动模拟器输出: sim_output_1775389040.2096033.json -> sim_sim_output_1775389040.2096033.json
+移动模拟器输出: sim_output_1775389040.2132921.json -> sim_sim_output_1775389040.2132921.json
+移动模拟器输出: sim_output_1775389040.2686417.json -> sim_sim_output_1775389040.2686417.json
+移动模拟器输出: sim_output_1775389040.2177253.json -> sim_sim_output_1775389040.2177253.json
+移动模型输出: model_output_1775389040.3223019.json -> model_model_output_1775389040.3223019.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.2096033.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.2132921.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.2686417.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.2177253.png
+推理步骤 50/60 - 新坐标: [-1.1337037989741563, 1.5207103737216805, 3.3990519828498957, 0.19541485105983078]
+发送坐标到模拟器: [-1.1337037989741563, 1.5207103737216805, 3.3990519828498957, 0.19541485105983078]
+移动模拟器输出: sim_output_1775389040.2899144.json -> sim_sim_output_1775389040.2899144.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.2899144.png
+移动模拟器输出: sim_output_1775389040.4159334.json -> sim_sim_output_1775389040.4159334.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.4159334.png
+移动模拟器输出: sim_output_1775389040.417283.json -> sim_sim_output_1775389040.417283.json
+移动模型输出: model_output_1775389040.4632409.json -> model_model_output_1775389040.4632409.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.417283.png
+推理步骤 51/60 - 新坐标: [-0.7953651027895005, -1.7717593943747596, 3.410465977493827, 0.18148356887687725]
+发送坐标到模拟器: [-0.7953651027895005, -1.7717593943747596, 3.410465977493827, 0.18148356887687725]
+移动模拟器输出: sim_output_1775389040.5425441.json -> sim_sim_output_1775389040.5425441.json
+移动模型输出: model_output_1775389040.5974312.json -> model_model_output_1775389040.5974312.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.5425441.png
+推理步骤 52/60 - 新坐标: [-0.9783126451507391, -0.9714948805994307, 3.532681303145803, 0.19141138563900056]
+发送坐标到模拟器: [-0.9783126451507391, -0.9714948805994307, 3.532681303145803, 0.19141138563900056]
+移动模型输出: model_output_1775389040.7317183.json -> model_model_output_1775389040.7317183.json
+推理步骤 53/60 - 新坐标: [-0.8150155462863667, -1.4255157271135057, 3.4048974278994564, 0.1865765109808939]
+发送坐标到模拟器: [-0.8150155462863667, -1.4255157271135057, 3.4048974278994564, 0.1865765109808939]
+移动模拟器输出: sim_output_1775389040.7097933.json -> sim_sim_output_1775389040.7097933.json
+移动模拟器输出: sim_output_1775389040.73081.json -> sim_sim_output_1775389040.73081.json
+移动模拟器输出: sim_output_1775389040.7722688.json -> sim_sim_output_1775389040.7722688.json
+移动模拟器输出: sim_output_1775389040.736425.json -> sim_sim_output_1775389040.736425.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.7097933.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.73081.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.7722688.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.736425.png
+移动模拟器输出: sim_output_1775389040.8136556.json -> sim_sim_output_1775389040.8136556.json
+移动模型输出: model_output_1775389040.8647213.json -> model_model_output_1775389040.8647213.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.8136556.png
+推理步骤 54/60 - 新坐标: [-0.4885030106819969, -1.7640864818248814, 3.942380625968328, 0.19722134060895521]
+发送坐标到模拟器: [-0.4885030106819969, -1.7640864818248814, 3.942380625968328, 0.19722134060895521]
+移动模拟器输出: sim_output_1775389040.9645116.json -> sim_sim_output_1775389040.9645116.json
+移动模型输出: model_output_1775389040.9953842.json -> model_model_output_1775389040.9953842.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389040.9645116.png
+推理步骤 55/60 - 新坐标: [-0.8825556608891203, -1.7465492695651008, 3.6036299940315475, 0.17523517137816158]
+发送坐标到模拟器: [-0.8825556608891203, -1.7465492695651008, 3.6036299940315475, 0.17523517137816158]
+移动模型输出: model_output_1775389041.126639.json -> model_model_output_1775389041.126639.json
+推理步骤 56/60 - 新坐标: [-1.0559255508649161, -2.582741734617616, 3.414224215914748, 0.12295259573928904]
+发送坐标到模拟器: [-1.0559255508649161, -2.582741734617616, 3.414224215914748, 0.12295259573928904]
+移动模拟器输出: sim_output_1775389041.0995495.json -> sim_sim_output_1775389041.0995495.json
+移动模拟器输出: sim_output_1775389041.15052.json -> sim_sim_output_1775389041.15052.json
+移动模拟器输出: sim_output_1775389041.1165848.json -> sim_sim_output_1775389041.1165848.json
+移动模拟器输出: sim_output_1775389041.129904.json -> sim_sim_output_1775389041.129904.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.0995495.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.15052.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.1165848.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.129904.png
+移动模型输出: model_output_1775389041.2544692.json -> model_model_output_1775389041.2544692.json
+推理步骤 57/60 - 新坐标: [-1.1527953491168847, -2.6362470263485425, 3.510822719772154, 0.12605078261873265]
+更新指令: and finally descend in front of the cabinet in the bathroom
+更新参考图像: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.129904.png
+发送坐标到模拟器: [-1.1527953491168847, -2.6362470263485425, 3.510822719772154, 0.12605078261873265]
+移动模拟器输出: sim_output_1775389041.3911972.json -> sim_sim_output_1775389041.3911972.json
+移动模型输出: model_output_1775389041.3836768.json -> model_model_output_1775389041.3836768.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.3911972.png
+推理步骤 58/60 - 新坐标: [-0.8812020472763475, -3.1018054139053293, 3.453599857386788, 0.13621006152178905]
+发送坐标到模拟器: [-0.8812020472763475, -3.1018054139053293, 3.453599857386788, 0.13621006152178905]
+移动模拟器输出: sim_output_1775389041.3928056.json -> sim_sim_output_1775389041.3928056.json
+移动模拟器输出: sim_output_1775389041.4215996.json -> sim_sim_output_1775389041.4215996.json
+移动模拟器输出: sim_output_1775389041.4640539.json -> sim_sim_output_1775389041.4640539.json
+移动模拟器输出: sim_output_1775389041.4919918.json -> sim_sim_output_1775389041.4919918.json
+移动模型输出: model_output_1775389041.5337462.json -> model_model_output_1775389041.5337462.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.3928056.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.4215996.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.4640539.png
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.4919918.png
+推理步骤 59/60 - 新坐标: [-1.1632658334204204, -2.576585177242327, 3.4829992924092035, 0.10340611386797]
+发送坐标到模拟器: [-1.1632658334204204, -2.576585177242327, 3.4829992924092035, 0.10340611386797]
+移动模拟器输出: sim_output_1775389041.6098292.json -> sim_sim_output_1775389041.6098292.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.6098292.png
+移动模拟器输出: sim_output_1775389041.638507.json -> sim_sim_output_1775389041.638507.json
+移动模型输出: model_output_1775389041.6566694.json -> model_model_output_1775389041.6566694.json
+发送图像到模型: image__gibson_1_Arkansaw_traj_2_instruction.json_1775389041.638507.png
+推理步骤 60/60 - 新坐标: [-1.1711021714487344, -2.6086644595263384, 2.48317715672638, 0.09748299167621885]
+发送坐标到模拟器: [-1.1711021714487344, -2.6086644595263384, 2.48317715672638, 0.09748299167621885]
+测试完成. 成功: False, 步数: 60, 最后指令索引: 6
+
+所有测试完成!

@@ -1,0 +1,8 @@
+{
+  "/gibson_1/Micanopy/traj_4/instruction_pro.json": {
+    "success": false,
+    "steps": 60,
+    "final_instruction_index": 10,
+    "termination_reason": "max_steps"
+  }
+}
