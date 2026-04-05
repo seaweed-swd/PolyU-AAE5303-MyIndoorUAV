@@ -22,7 +22,7 @@ We finally find an AAAI 26 paper with the whole open-source code/dataset/model/p
 - dataset: https://www.modelscope.cn/datasets/valyentine/Indoor_UAV
 - pre-trained weight: https://modelscope.cn/models/valyentine/IndoorUAV-Agent/files
 
-The repository mainly relies on two important basements:
+The repository mainly relies on two important bases:
 - the physics-enabled 3D simulator: https://github.com/facebookresearch/habitat-sim
 - the famous VLA work pi_0 : https://github.com/Physical-Intelligence/openpi
 
