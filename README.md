@@ -34,7 +34,7 @@ The repository mainly relies on two important bases:
 - Dataset & pre-trained weight: They can be downloaded directly in the link via web/cmd, or by it's conda guildence. The weight is about 10GB; and the whole dataset with training and evaluation sets is about 1.38TB, devided into many sub-zips that could not be unpackaged with anyone singlely. Here, the `scene_datasets.zip` with 47GB is nessecary for simulation scene, and the `without_screenshot.zip` with 500MB is the smallest package of dataset we could use that only with prompts and ground truth trajectories. So I only download these two for the evaluation.
 - Smoketest: The `IndoorUAV-Agent` repo tells how to use the training and eval pipline, I think with the whole dataset we can easily do this. But for the storage limit (I need to pay ￥1 per day for the extra 130GB storage in the service), I could only do evaluation by the least dataset. With a modification with the eval pipline, the smoketest with random init pic tensor could get an output, with fixing for the personal path in the origin repo.
 - Evaluation: With smoketest, an eval pipline is generated for the without_screenshot. The 89/534 task in it have been tested.
-- Result: Only 2/89 episodes succeed for reaching the orientaion, and nearly all of them fail for the tasks, the metrics are pool.
+- Result: Only 2/89 episodes succeed for reaching the destination, and nearly all of them fail for the tasks, the metrics are poor.
 
 <br>
 
