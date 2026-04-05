@@ -39,7 +39,9 @@ The repository mainly relies on two important bases:
 <br>
 
 **4.Remark**
-It seems in without_screenshot dataset the currently pre-trained model nearly fail, means the VAN ability need be improved in the following works, should consider a world model or better pre-trained model (I think the used base model is too wake and small) or try diffusion policy and inverse dynamic action generation. The model should correctly estimate the currently position and pose, with a memory of task and done and space imagine (e.g. depth estimation). Additionally and interesting, I find these fail modes by checking the eval videos:
+It seems in without_screenshot dataset the currently pre-trained model nearly fail, means the VAN ability need be improved in the following works, should consider a world model or better pre-trained model (I think the used base model is too wake and small) or try diffusion policy and inverse dynamic action generation. The model should correctly estimate the currently position and pose, with a memory of task and done and space imagine (e.g. depth estimation). The inverse dynamic planner should consider safety boundary.
+
+Additionally and interesting, I find these fail modes by checking the eval videos:
 - Prompt: ascende, failed by ascending too high to ceil.
 - Prompt: reach near the door, failed by reaching not enough so could not do the following turn right task.
 - Prompt: find something, failed by interfered by scene of obstacles or limited vision, so it interrupt the right action and walk or turn around suddently.
