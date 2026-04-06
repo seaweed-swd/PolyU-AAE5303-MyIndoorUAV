@@ -53,8 +53,8 @@ Additionally and interesting, I find these fail modes by checking the eval video
 <br>
 
 **5.Method of IndoorUAV**
-- Dataset: 1075 3D indoor scenes from Habitat, manual trajectory collection + augmentation, GPT-4o for multi-granularity annotation, 50965 trajectories with images/poses, split into VLN/VLA subsets.
-- Method: Build IndoorUAV-Agent, VLA infers trajectory via fine-tuned π₀, VLN decomposes long instructions into sub-instructions by GPT-4o, executes subtasks with VLA sequentially and updates visual states.
+- Dataset: They collect the trajectories and label the movement by GPT-4o, long trajectories for VLN was cutted to slices for VLA. 1075 3D indoor scenes from Habitat, manual trajectory collection + augmentation, GPT-4o for multi-granularity annotation, 50965 trajectories with images/poses, split into VLN/VLA subsets.
+- Method: Build IndoorUAV-Agent, VLA infers trajectory via fine-tuned π₀, VLN decomposes long instructions into sub-instructions by GPT-4o, executes subtasks with VLA sequentially and updates visual states. The π₀ use an open-source pre-trained VLM model as a backbone and a diffusion model as a generator head, fully bases on surpervised learning with image+instruction+state input and action truck output. The diffusion proccess is similar to add noise to input and diffuse to action truck directly (or flow maching), nor by state estimation & inverse dynamic planner in diffusion policy or RL.
 - Metrics: Adopt SR, NDTW, NE, OSR to evaluate model performance in scenes.
 
 <br>
